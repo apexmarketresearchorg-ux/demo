@@ -1,0 +1,2140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ============================================================
+  NATIONAL GLOBAL ACADEMY — DEMO HOMEPAGE (Noida, India)
+  Merchant Navy & Cruise Line training — conversion-focused demo.
+  All facts/figures/approvals are DASHED-TAG PLACEHOLDERS.
+  Replace every [DEMO: ...] tag with client-verified content.
+============================================================ -->
+
+<!-- ===== SEO ===== -->
+<title>Merchant Navy &amp; Cruise Line Courses in Noida | NGA</title>
+<meta name="description" content="Merchant Navy & Cruise Line courses in Noida — National Global Academy (demo). Honest counselling, eligibility guidance & free callback. Verify everything.">
+<link rel="canonical" href="https://demo.example/"><!-- DEMO: replace with live URL -->
+<meta name="robots" content="noindex"><!-- DEMO: remove on launch -->
+
+<!-- ===== Open Graph / Twitter ===== -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Merchant Navy & Cruise Line Courses in Noida | NGA">
+<meta property="og:description" content="Honest Merchant Navy & Cruise Line counselling in Noida. Eligibility check, free callback, and a guide to verifying any maritime institute.">
+<meta property="og:url" content="https://demo.example/"><!-- DEMO -->
+<meta property="og:site_name" content="National Global Academy">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Merchant Navy & Cruise Line Courses in Noida | NGA">
+<meta name="twitter:description" content="Honest Merchant Navy & Cruise Line counselling in Noida — free callback, eligibility check, verification guide.">
+
+<!-- ===== Favicon (inline SVG, no external file) ===== -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23061F15' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='5' r='3'/%3E%3Cline x1='12' y1='22' x2='12' y2='8'/%3E%3Cpath d='M5 12H2a10 10 0 0 0 20 0h-3'/%3E%3C/svg%3E">
+
+<!-- ===== Fonts (display + body, with system fallbacks declared in CSS) ===== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Display: Urbanist (matches nationalglobalacademy.com) + Inter body -->
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- ===== JSON-LD: EducationalOrganization (DEMO — edit all values) ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "National Global Academy",
+  "url": "https://demo.example/",
+  "description": "Demo homepage for a Noida-based Merchant Navy and Cruise Line training academy. All contact details are placeholders.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "[DEMO STREET ADDRESS]",
+    "addressLocality": "Noida",
+    "addressRegion": "Uttar Pradesh",
+    "postalCode": "[DEMO PIN]",
+    "addressCountry": "IN"
+  },
+  "telephone": "[DEMO PHONE +91-XXXXXXXXXX]",
+  "email": "[DEMO EMAIL]",
+  "sameAs": []
+}
+</script>
+
+<!-- ===== JSON-LD: FAQPage (must match the on-page FAQ below) ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"Can I join the Merchant Navy after 12th?","acceptedAnswer":{"@type":"Answer","text":"Yes. Students with Physics, Chemistry and Maths (PCM) in 12th can target deck or engine officer pathways such as DNS or Marine Engineering; rating routes like GP Rating have broader criteria. Exact eligibility must be confirmed with the institute and regulator. [DEMO guidance — confirm with client]"}},
+    {"@type":"Question","name":"Is PCM compulsory for a career at sea?","acceptedAnswer":{"@type":"Answer","text":"PCM is generally required for officer-level nautical and marine engineering programmes. Rating courses and most cruise line hospitality roles are open to other streams. [DEMO — verify current criteria]"}},
+    {"@type":"Question","name":"What medical standards apply?","acceptedAnswer":{"@type":"Answer","text":"Seafarer roles require a medical fitness certificate from an approved doctor, covering eyesight, colour vision and general fitness. Standards are set by the maritime regulator and employers. [Approval details to be verified with client]"}},
+    {"@type":"Question","name":"What is the difference between Merchant Navy and cruise line careers?","acceptedAnswer":{"@type":"Answer","text":"Merchant Navy roles operate cargo and tanker ships (deck, engine, ratings) and are regulated by maritime authorities under STCW conventions. Cruise line roles are hospitality-driven — guest services, F&B, housekeeping, culinary — on passenger ships."}},
+    {"@type":"Question","name":"What are the fees?","acceptedAnswer":{"@type":"Answer","text":"Fees vary by course and duration. [DEMO: fee range to be added by client]. Always ask for a written fee structure, receipt, and refund policy before paying."}},
+    {"@type":"Question","name":"How do I verify an institute's approval?","acceptedAnswer":{"@type":"Answer","text":"Ask for the approval letter and number, then cross-check it on the official regulator's website, visit the campus, speak to alumni, and get every promise in writing."}},
+    {"@type":"Question","name":"What salary can I expect?","acceptedAnswer":{"@type":"Answer","text":"Earnings vary widely by rank, company and contract. [DEMO: indicative ranges to be added by client]. No institute can guarantee a job or a salary."}},
+    {"@type":"Question","name":"How long is the training?","acceptedAnswer":{"@type":"Answer","text":"From about 4–6 months for short cruise hospitality modules to 4 years for Marine Engineering degrees. [DEMO — confirm durations with client]"}}
+  ]
+}
+</script>
+
+<style>
+/* ============================================================
+   1. DESIGN TOKENS — “Naval Gold” (retheme = edit this block only)
+
+   Base palette shortcuts are remapped per-theme by the dev palette
+   switcher (Shift+P). Everything below derives from ONE scale + ONE
+   CTA colour, so a pale CTA (champagne) automatically gets dark CTA
+   text and a saturated CTA (coral) automatically gets white CTA text.
+============================================================ */
+:root{
+  /* — brand shortcuts (what the spec calls the palette) — */
+  --navy-900:#0A1F44;    /* primary: hero, footer, headings on light   */
+  --ocean-600:#1B4F8A;   /* secondary: links, accents, icons on light  */
+  --gold-500:#E8A838;    /* CTA ONLY — never for decoration            */
+  --gold-600:#C98A1E;    /* CTA hover/pressed                          */
+  --teal-500:#1AA6B7;    /* highlights ONLY on dark backgrounds        */
+  --bg-warm:#F7F9FC;     /* page background                             */
+  --surface:#FFFFFF;     /* cards                                       */
+  --ink:#102033;         /* body text on light (never pure black)       */
+  --ink-muted:#4A5D7A;   /* secondary text on light                     */
+  --on-navy:#F7F9FC;     /* text on navy                                */
+  --on-navy-muted:#A9B8D0;/* secondary text on navy                      */
+
+  /* — derived scales (auto-consistent in every theme) — */
+  --navy-950:color-mix(in srgb,var(--navy-900) 72%,#02060C); /* deep dark   */
+  --navy-800:color-mix(in srgb,var(--navy-900) 82%,#FFFFFF); /* panel dark  */
+  --navy-700:color-mix(in srgb,var(--navy-900) 68%,#FFFFFF); /* grad top    */
+  --ocean:var(--ocean-600);
+  --ocean-soft:color-mix(in srgb,var(--ocean-600) 34%,#FFFFFF);
+  --sky:color-mix(in srgb,var(--ocean-600) 55%,#FFFFFF);
+  --teal:var(--teal-500);
+  --teal-bright:color-mix(in srgb,var(--teal) 68%,#FFFFFF);  /* on-dark hi  */
+  --teal-soft:color-mix(in srgb,var(--teal) 16%,#FFFFFF);
+  --cream:var(--bg-warm);
+  --paper:var(--surface);
+  --white:#FFFFFF;
+  --muted:var(--ink-muted);
+  --line:color-mix(in srgb,var(--navy-900) 13%,transparent);
+  --on-dark-muted:var(--on-navy-muted);
+  --on-dark-faint:color-mix(in srgb,var(--on-navy) 62%,var(--navy-900));
+  --on-dark-hint:var(--on-navy);
+
+  /* — CTA button: text + glow adapt to gold lightness per theme — */
+  --amber:var(--gold-500);
+  --amber-dark:color-mix(in srgb,var(--gold-600) 90%,#000000);
+  --amber-soft:color-mix(in srgb,var(--gold-500) 20%,#FFFFFF);
+  --amber-ink:light-dark(var(--navy-900),#FFFFFF);/* dark text on pale gold */
+  --cta-glow:light-dark(rgba(232,168,56,.42),rgba(232,168,56,.55));
+  --gold-light:#E8A838;
+  color-scheme:light;
+
+  /* — demo placeholder tags: ocean dashed outline + neutral navy tint — */
+  --demo-border:var(--ocean-600);
+  --demo-bg:color-mix(in srgb,var(--ocean-600) 7%,var(--surface));
+  --demo-ink:color-mix(in srgb,var(--navy-900) 90%,var(--ink));
+ }
+/* NOTE: translucent tints (rgba(…) inside components) use the Naval
+   Gold byte values directly — they intentionally stay theme-tied so
+   glows/shadows match the Naval Gold CTA; per-theme overrides of the
+   solid tokens below still flow through every var() reference. */
+
+/* ============================================================
+   PALETTE THEMES — only brand shortcuts change; every derived
+   scale follows automatically. CTA text/glow flips via light-dark.
+============================================================ */
+/* Royal Maritime — champagne CTA is pale ⇒ dark CTA text */
+html[data-theme="royal"]{
+  --navy-900:#12284C; --ocean-600:#4A5D7A;
+  --gold-500:#C9A961; --gold-600:#B08D45;
+  --teal-500:#8FB8C9; --bg-warm:#FAF8F3;
+  --ink:#16233A; --ink-muted:#5B6B84;
+  --on-navy:#FAF8F3; --on-navy-muted:#B9C0CD;
+  --gold-light:#C9A961; color-scheme:dark;
+}
+/* Deep Ocean — coral CTA is saturated ⇒ white CTA text */
+html[data-theme="ocean"]{
+  --navy-900:#0B132B; --ocean-600:#3A506B;
+  --gold-500:#FF6B4A; --gold-600:#E4552F;
+  --teal-500:#5BC0BE; --bg-warm:#F4F7FA;
+  --ink:#101E30; --ink-muted:#4C5E76;
+  --on-navy:#F4F7FA; --on-navy-muted:#8EA1BB;
+  --gold-light:#FF9A7E; color-scheme:only light;
+}
+
+/* Fallbacks for engines without light-dark(): declare CTA text +
+   glow per theme explicitly. */
+@supports not (color: light-dark(#fff, #000)) {
+  :root{ --amber-ink:var(--navy-900); --cta-glow:rgba(232,168,56,.42); }
+  html[data-theme="royal"]{ --amber-ink:var(--navy-900); --cta-glow:rgba(201,169,97,.45); }
+  html[data-theme="ocean"]{ --amber-ink:#FFFFFF; --cta-glow:rgba(255,107,74,.5); }
+}
+
+/* — motion/radius/shadow/typography tokens — */
+:root{
+  --r-lg:20px; --r-md:14px; --r-sm:10px;
+  --sh-sm:0 1px 2px rgba(10,31,68,.07),0 4px 14px rgba(10,31,68,.06);
+  --sh-md:0 8px 30px rgba(10,31,68,.12);
+  --sh-lg:0 20px 60px rgba(10,31,68,.22);
+  /* Framer-class radius scale (their site uses 40-50px corners) */
+  --r-lg:20px; --r-md:14px; --r-sm:10px;
+  --r-card:24px; --r-panel:34px; --r-pill:999px;
+  --f-display:"Urbanist","Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --f-body:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --nav-h:76px;
+}
+
+/* ============================================================
+   2. RESET & BASE
+============================================================ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--nav-h) + 16px);-webkit-text-size-adjust:100%}
+body{font-family:var(--f-body);font-size:16px;line-height:1.65;color:var(--ink);background:var(--cream);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+input,select,textarea{font:inherit;color:inherit}
+::selection{background:rgba(232,168,56,.32)}
+.container{width:min(1180px,100% - 2*clamp(16px,4vw,32px));margin-inline:auto}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip-link{position:fixed;top:-60px;left:16px;z-index:200;background:var(--navy-900);color:#fff;padding:10px 18px;border-radius:8px;transition:top .2s}
+.skip-link:focus{top:12px}
+:focus-visible{outline:3px solid var(--ocean);outline-offset:2px;border-radius:4px}/* deep lime — passes 3:1 on both light & dark */
+h1,h2,h3{font-family:var(--f-display);font-weight:600;line-height:1.06;letter-spacing:-.02em;color:var(--navy-900)}
+h2{font-size:clamp(2rem,4vw,3rem)}
+p{max-width:68ch}
+
+/* ============================================================
+   3. DEMO PLACEHOLDER TAG (dashed outline — flags every unverified fact)
+============================================================ */
+.demo-tag{display:inline-flex;align-items:center;gap:.45em;font:600 .7rem/1.35 var(--f-body);letter-spacing:.02em;color:var(--demo-ink);background:var(--demo-bg);border:1.5px dashed var(--demo-border);border-radius:999px;padding:.34em .8em;vertical-align:middle}
+.demo-tag .ic{width:.95em;height:.95em;flex:none}
+.demo-tag.blocky{display:flex;border-radius:var(--r-md);padding:.7em 1em;font-size:.74rem}
+.demo-tag.on-dark{color:var(--demo-border);background:rgba(232,168,56,.09);border-color:rgba(232,168,56,.75)}
+.demo-tag.on-dark .ic{color:var(--demo-border)}
+
+/* ============================================================
+   4. ICONS (stroke sprite, inherits currentColor)
+============================================================ */
+.ic{width:1.15em;height:1.15em;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;flex:none}
+
+/* ============================================================
+   5. BUTTONS
+============================================================ */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55em;font-weight:700;font-size:.95rem;line-height:1;padding:.95em 1.5em;border-radius:12px;border:1.5px solid transparent;cursor:pointer;transition:transform .25s cubic-bezier(.34,1.4,.5,1),box-shadow .25s,background .25s,color .25s,border-color .25s;min-height:46px;white-space:nowrap}
+.btn .ic{transition:transform .25s}
+.btn:hover .ic.move{transform:translateX(3px)}
+.btn-amber{background:linear-gradient(180deg,var(--gold-light),var(--gold-500) 60%,var(--gold-600));color:var(--amber-ink);box-shadow:0 6px 18px var(--cta-glow),inset 0 1px 0 rgba(255,255,255,.35)}
+.btn-amber:hover{background:var(--gold-600);transform:translateY(-2px);box-shadow:0 10px 26px var(--cta-glow)}
+.btn-outline-light{border-color:var(--on-navy);color:var(--on-navy);background:rgba(255,255,255,.06)}
+.btn-outline-light:hover{background:rgba(255,255,255,.14);transform:translateY(-2px)}
+.btn-outline-navy{border-color:rgba(10,31,68,.28);color:var(--navy-900);background:var(--white)}
+.btn-outline-navy:hover{border-color:var(--navy-900);transform:translateY(-2px);box-shadow:var(--sh-sm)}
+.btn-teal{background:transparent;color:var(--navy-900);border:1.5px solid var(--navy-900)}/* secondary style */
+.btn-teal:hover{transform:translateY(-2px)}
+.btn-ghost{background:transparent;color:var(--navy-900);border:1.5px solid var(--navy-900)}
+.btn-ghost:hover{background:rgba(10,31,68,.05);transform:translateY(-2px);box-shadow:var(--sh-sm)}
+.btn-sm{padding:.7em 1.1em;font-size:.85rem;min-height:40px}
+
+/* ============================================================
+   6. NAVBAR (sticky glass)
+============================================================ */
+/* navbar: transparent over the dark hero → navy glass after scroll */
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;height:var(--nav-h);background:transparent;border-bottom:1px solid transparent;transition:box-shadow .3s,border-color .3s,background .3s,color .3s}
+.nav .nav-links a{color:var(--on-navy)}
+.nav .nav-links a:hover{color:var(--teal);background:rgba(255,255,255,.08)}
+.nav .nav-phone{color:var(--on-navy);background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.25)}
+.nav .nav-phone:hover{border-color:var(--on-navy)}
+.nav .burger{color:var(--on-navy);background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.25)}
+.nav .brand-txt b{color:var(--on-navy)}
+.nav .brand-txt span{color:var(--teal)}
+.nav.scrolled{background:rgba(10,31,68,.7);backdrop-filter:blur(14px) saturate(1.3);-webkit-backdrop-filter:blur(14px) saturate(1.3);border-color:rgba(255,255,255,.12);box-shadow:0 6px 24px rgba(10,31,68,.25)}
+.nav.scrolled{border-color:var(--line);box-shadow:0 6px 24px rgba(10,31,68,.08);background:rgba(247,249,252,.9)}
+.nav-inner{height:100%;display:flex;align-items:center;gap:18px}
+.brand{display:flex;align-items:center;gap:10px;min-width:0}
+.brand-mark{width:42px;height:42px;flex:none;border-radius:12px;background:linear-gradient(145deg,var(--navy-800),var(--navy-950));display:grid;place-items:center;color:var(--teal);box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 4px 10px rgba(10,31,68,.25)}
+.brand-mark .ic{width:22px;height:22px}
+.brand-txt{line-height:1.15}
+.brand-txt b{display:block;font:700 .95rem var(--f-display);color:var(--navy-900);letter-spacing:.01em;white-space:nowrap}
+.brand-txt span{display:block;font-size:.64rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--ocean)}
+.nav-links{display:flex;gap:2px;margin-left:auto}
+.nav-links a{font-size:.87rem;font-weight:600;color:var(--ink);padding:9px 12px;border-radius:9px;position:relative;min-height:44px;display:inline-flex;align-items:center}
+.nav-links a:hover{color:var(--ocean);background:rgba(27,79,138,.07)}
+.nav-cta{display:flex;align-items:center;gap:10px}
+.nav-phone{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:11px;border:1.5px solid var(--line);color:var(--navy-800);background:#fff;transition:transform .25s,border-color .25s}
+.nav-phone:hover{border-color:var(--navy-800);transform:translateY(-2px)}
+.burger{display:none;width:46px;height:46px;border-radius:11px;border:1.5px solid var(--line);background:#fff;align-items:center;justify-content:center;color:var(--navy-900)}
+.icon-x{display:none}
+.menu-open .icon-menu{display:none}
+.menu-open .icon-x{display:block}
+.mobile-menu{display:none;position:fixed;top:var(--nav-h);left:0;right:0;z-index:99;background:rgba(247,249,252,.98);backdrop-filter:blur(16px);border-bottom:1px solid var(--line);box-shadow:0 30px 50px rgba(10,31,68,.14);padding:10px clamp(16px,4vw,32px) 22px}
+.mobile-menu a{display:flex;align-items:center;min-height:48px;padding:12px 14px;font-weight:600;border-radius:10px}
+.mobile-menu a:hover{background:rgba(27,79,138,.07)}
+.mobile-menu .btn{width:100%;margin-top:10px}
+.nav.open .mobile-menu{display:block}
+
+/* ============================================================
+   7. HERO
+============================================================ */
+.hero{position:relative;padding-top:var(--nav-h);background:
+  radial-gradient(1100px 520px at 85% -10%,rgba(26,166,183,.24),transparent 60%),
+  radial-gradient(900px 500px at -10% 30%,rgba(27,79,138,.35),transparent 55%),
+  linear-gradient(168deg,var(--navy-800) 0%,var(--navy-900) 46%,var(--navy-950) 100%);
+  color:#fff;overflow:hidden;isolation:isolate}
+.hero-blob{position:absolute;border-radius:50%;filter:blur(70px);opacity:.5;z-index:-1;pointer-events:none}
+.blob-1{width:480px;height:480px;background:radial-gradient(circle,rgba(26,166,183,.5),transparent 65%);top:-140px;right:-80px;animation:drift 22s ease-in-out infinite alternate}
+.blob-2{width:420px;height:420px;background:radial-gradient(circle,rgba(26,166,183,.4),transparent 65%);bottom:40px;left:-140px;animation:drift 26s ease-in-out infinite alternate-reverse}
+@keyframes drift{from{transform:translate(0,0) scale(1)}to{transform:translate(-46px,36px) scale(1.08)}}
+.hero-grid{display:grid;grid-template-columns:1.06fr .94fr;gap:clamp(28px,4vw,56px);padding:clamp(48px,7vw,84px) 0 clamp(120px,13vw,170px);align-items:start}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;font-size:.74rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--teal-bright);background:rgba(26,166,183,.12);border:1px solid rgba(26,166,183,.4);padding:8px 15px;border-radius:999px;margin-bottom:22px}
+.eyebrow .pulse{width:7px;height:7px;border-radius:50%;background:var(--teal);box-shadow:0 0 0 0 rgba(26,166,183,.7);animation:pulse 2.4s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 9px rgba(26,166,183,0)}100%{box-shadow:0 0 0 0 rgba(26,166,183,0)}}
+.hero h1{color:#fff;font-size:clamp(2.6rem,6.2vw,4.6rem);font-weight:700;line-height:1.04;max-width:15ch;text-wrap:balance}
+.hero h1 .accent{color:transparent;background:linear-gradient(95deg,var(--teal),#E9FBC0);-webkit-background-clip:text;background-clip:text;font-style:italic;font-weight:700}
+.hero-sub{margin-top:18px;color:var(--on-dark-muted);font-size:1.06rem;max-width:52ch}
+.hero-honesty{margin-top:16px;display:flex;flex-wrap:wrap;gap:9px}
+/* --- hero path cards --- */
+.path-cards{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:30px}
+.path-card{position:relative;display:block;background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.14);border-radius:var(--r-lg);padding:20px 20px 16px;transition:transform .35s cubic-bezier(.22,.9,.3,1),background .3s,border-color .3s,box-shadow .35s;overflow:hidden}
+.path-card::after{content:"";position:absolute;inset:auto -30% -55% -30%;height:70%;background:radial-gradient(50% 100% at 50% 100%,rgba(26,166,183,.28),transparent 70%);opacity:0;transition:opacity .4s}
+.path-card:hover{transform:translateY(-5px);background:rgba(255,255,255,.09);border-color:rgba(26,166,183,.5);box-shadow:0 18px 40px rgba(10,31,68,.4)}
+.path-card:hover::after{opacity:1}
+.path-ic{width:46px;height:46px;border-radius:13px;display:grid;place-items:center;margin-bottom:14px;background:linear-gradient(145deg,rgba(26,166,183,.22),rgba(27,79,138,.25));border:1px solid rgba(26,166,183,.35);color:var(--teal-bright)}
+.path-card.cruise .path-ic{background:linear-gradient(145deg,rgba(232,168,56,.2),rgba(27,79,138,.22));border-color:rgba(232,168,56,.4);color:var(--teal-bright)}
+.path-card h3{color:#fff;font-size:1.14rem;font-family:var(--f-body);font-weight:700;letter-spacing:0}
+.path-card p{color:var(--on-dark-muted);font-size:.85rem;margin-top:6px;max-width:none}
+.path-link{display:inline-flex;align-items:center;gap:7px;margin-top:14px;font-size:.84rem;font-weight:700;color:var(--teal-bright)}
+.path-card.cruise .path-link{color:var(--teal-bright)}
+/* --- hero enquiry form card (glass) --- */
+.lead-card{position:relative;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);color:var(--ink);border-radius:26px;padding:clamp(22px,3vw,32px);box-shadow:var(--sh-lg);border:1px solid rgba(255,255,255,.6)}
+.lead-card::before{content:"";position:absolute;inset:-1px;border-radius:26px;padding:1px;background:linear-gradient(160deg,rgba(26,166,183,.7),transparent 35%,transparent 65%,rgba(232,168,56,.6));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
+.lead-card h2{font-size:1.45rem;font-family:var(--f-display)}
+.lead-card .lead-sub{font-size:.87rem;color:var(--muted);margin:6px 0 20px}
+.lead-form{display:grid;gap:14px}
+.field label{display:block;font-size:.8rem;font-weight:700;color:var(--navy-800);margin-bottom:6px}
+.field label .req{color:#C2410C}
+.control{width:100%;min-height:50px;padding:12px 14px;border-radius:12px;border:1.5px solid rgba(10,31,68,.2);background:#fff;transition:border-color .2s,box-shadow .2s;font-size:.95rem}
+.control:hover{border-color:rgba(10,31,68,.38)}
+.control:focus{outline:none;border-color:var(--ocean);box-shadow:0 0 0 4px rgba(27,79,138,.16)}
+select.control{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230A2418' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;background-size:15px;padding-right:42px}
+.control[aria-invalid="true"]{border-color:#C0392B;box-shadow:0 0 0 4px rgba(220,38,38,.1)}
+.err{display:none;font-size:.76rem;color:#A32A20;font-weight:600;margin-top:5px}
+.err.show{display:flex;align-items:center;gap:5px}
+.err .ic{width:.95em;height:.95em}
+.check-row{display:flex;align-items:flex-start;gap:10px;font-size:.8rem;color:var(--muted)}
+.check-row input{width:19px;height:19px;margin-top:2px;accent-color:var(--navy-800);flex:none}
+.form-foot{display:flex;flex-direction:column;gap:12px;margin-top:4px}
+.promise{display:flex;align-items:center;gap:9px;justify-content:center;font-size:.82rem;color:var(--navy-800);font-weight:600}
+.promise .ic{color:var(--ocean)}
+.alt-contact{display:flex;justify-content:center;gap:8px;font-size:.82rem;color:var(--muted)}
+.alt-contact a{color:var(--ocean);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+/* form success state (injected by JS) */
+.form-success{text-align:center;padding:26px 8px}
+.success-ic{width:64px;height:64px;margin:0 auto 16px;border-radius:50%;background:var(--teal-soft);color:var(--ocean);display:grid;place-items:center;animation:pop .5s cubic-bezier(.34,1.6,.5,1)}
+@keyframes pop{from{transform:scale(.4);opacity:0}}
+.form-success h3{font-size:1.3rem;margin-bottom:8px}
+.form-success p{color:var(--muted);font-size:.9rem;margin-inline:auto}
+/* hero bottom waves */
+.hero-waves{position:absolute;left:0;right:0;bottom:-1px;height:clamp(70px,9vw,130px);z-index:1;pointer-events:none}
+.wave{position:absolute;bottom:0;left:0;width:200%;height:100%}
+.wave path{fill:var(--surface)}
+.wave-1{opacity:.28;animation:waveMove 17s linear infinite}
+.wave-2{animation:waveMove 11s linear infinite}
+@keyframes waveMove{to{transform:translateX(-50%)}}
+
+/* ============================================================
+   8. TRUST BAR
+============================================================ */
+.trust{padding:clamp(44px,6vw,68px) 0 0}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.stat{text-align:center;padding:26px 12px 22px;background:var(--white);border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--sh-sm);transition:transform .3s,box-shadow .3s}
+.stat:hover{transform:translateY(-4px);box-shadow:var(--sh-md)}
+.stat .num{font:700 clamp(2rem,3.4vw,2.7rem)/1 var(--f-display);color:var(--navy-900);font-variant-numeric:tabular-nums}
+.stat .num em{font-style:normal;color:var(--ocean)}
+.stat .lbl{display:block;font-size:.8rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:8px}
+.stat .demo-tag{margin-top:10px}
+.badge-row{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:26px}
+.approval-badge{display:inline-flex;align-items:center;gap:10px;border:2px dashed rgba(10,31,68,.35);border-radius:14px;padding:12px 18px;background:var(--paper);font-size:.82rem;font-weight:700;color:var(--navy-800)}
+.approval-badge .ic{color:var(--ocean);width:1.3em;height:1.3em}
+
+/* ============================================================
+   9. SECTION SCAFFOLDING
+============================================================ */
+.section{padding:clamp(72px,9vw,118px) 0}
+.section.tight{padding-top:clamp(40px,5vw,64px)}
+.sec-head{max-width:720px;margin-bottom:clamp(34px,5vw,54px)}
+.sec-head.center{margin-inline:auto;text-align:center}
+/* pill kicker — matches nationalglobalacademy.com section labels */
+.kicker{display:inline-flex;align-items:center;gap:0;font-size:.74rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--ocean);margin-bottom:16px;padding:9px 18px;border:1.5px solid var(--line);border-radius:var(--r-pill);background:var(--surface);box-shadow:var(--sh-sm)}
+.kicker::before{content:"";width:7px;height:7px;background:var(--gold-500);border-radius:50%;margin-right:10px;flex:none}
+.sec-head.center .kicker::after{display:none}
+.kicker.on-dark{color:var(--teal-bright);background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.18);box-shadow:none}
+.sec-head p.lede{margin-top:14px;color:var(--muted);font-size:1.02rem}
+.sec-head .demo-tag{margin-top:14px}
+.on-dark-bg h2,.on-dark-bg h3{color:#fff}
+
+/* ============================================================
+   10. CAREER PATHS (Merchant Navy vs Cruise)
+============================================================ */
+#paths{background:var(--paper);border-block:1px solid var(--line)}
+.paths-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,3vw,30px)}
+.path-panel{position:relative;border-radius:26px;padding:clamp(26px,3.4vw,40px);color:#fff;overflow:hidden;box-shadow:var(--sh-md);transition:transform .35s,box-shadow .35s}
+.path-panel:hover{transform:translateY(-6px);box-shadow:var(--sh-lg)}
+.path-panel.mn{background:
+  radial-gradient(560px 300px at 100% 0%,rgba(26,166,183,.25),transparent 60%),
+  linear-gradient(150deg,var(--navy-700),var(--navy-950) 78%)}
+.path-panel.cruise{background:
+  radial-gradient(560px 300px at 100% 0%,rgba(232,168,56,.15),transparent 60%),
+  linear-gradient(150deg,#8A6544,#38220F 78%)}/* brand bronze */
+.path-panel .panel-ic{width:56px;height:56px;border-radius:16px;display:grid;place-items:center;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);margin-bottom:20px;color:var(--on-dark-hint)}
+.path-panel.cruise .panel-ic{color:var(--teal-bright)}
+.panel-ic .ic{width:28px;height:28px}
+.path-panel h3{font-size:clamp(1.4rem,2.2vw,1.7rem)}
+.path-panel .tag-role{font-size:.78rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--on-dark-faint);margin-top:5px}
+.path-panel.cruise .tag-role{color:var(--teal-bright)}
+.panel-rows{margin:22px 0;display:grid;gap:0}
+.panel-row{display:grid;grid-template-columns:118px 1fr;gap:14px;padding:13px 0;border-top:1px solid rgba(255,255,255,.13);font-size:.9rem}
+.panel-row dt{font-weight:800;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.62);padding-top:2px}
+.panel-row dd{color:var(--on-navy);max-width:none}
+.path-panel .demo-tag{margin-bottom:14px}
+.panel-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+
+/* ============================================================
+   11. COURSES
+============================================================ */
+.tabs{display:inline-flex;gap:6px;background:var(--white);border:1px solid var(--line);padding:6px;border-radius:999px;box-shadow:var(--sh-sm);flex-wrap:wrap}
+.tab{padding:10px 22px;border-radius:999px;font-size:.88rem;font-weight:700;color:var(--muted);min-height:44px;transition:background .25s,color .25s,box-shadow .25s}
+.tab:hover{color:var(--navy-900)}
+.tab[aria-pressed="true"]{background:var(--navy-900);color:#fff;box-shadow:0 4px 12px rgba(10,31,68,.3)}
+.course-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}
+.course-card{display:flex;flex-direction:column;background:var(--white);border:1px solid var(--line);border-radius:var(--r-lg);padding:24px;box-shadow:var(--sh-sm);transition:transform .3s,box-shadow .3s,opacity .4s;position:relative;overflow:hidden}
+.course-card::before{content:"";position:absolute;inset:0 0 auto;height:4px;background:linear-gradient(90deg,var(--ocean),var(--teal))}
+.course-card[data-cat="cruise"]::before{background:linear-gradient(90deg,var(--teal),#D9A066)}
+.course-card:hover{transform:translateY(-6px);box-shadow:var(--sh-md)}
+.course-card.hide{display:none}
+.cat-chip{align-self:flex-start;font-size:.66rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;padding:5px 11px;border-radius:999px;margin-bottom:14px}
+.cat-chip.mn{color:var(--ocean);background:var(--teal-soft)}
+.cat-chip.cruise{color:var(--ocean);background:var(--teal-soft)}
+.course-card h3{font-size:1.22rem;margin-bottom:12px}
+.course-meta{display:grid;gap:9px;margin:0 0 16px}
+.course-meta li{display:flex;gap:9px;align-items:flex-start;font-size:.86rem;color:var(--muted)}
+.course-meta .ic{color:var(--ocean);margin-top:3px}
+.course-meta b{color:var(--navy-800)}
+.course-card .demo-tag{margin-bottom:16px}
+.course-actions{margin-top:auto;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+
+/* ============================================================
+   12. WHY CHOOSE US (varied bento — deliberately not identical cards)
+============================================================ */
+#why{background:
+  radial-gradient(700px 380px at 110% 10%,rgba(26,166,183,.1),transparent 60%),
+  radial-gradient(600px 400px at -10% 90%,rgba(27,79,138,.1),transparent 55%),
+  var(--navy-900);
+  color:var(--on-navy);position:relative;overflow:hidden}
+#why .kicker{color:var(--teal-bright)}
+#why h2{color:#fff}
+#why .sec-head p.lede{color:var(--on-dark-muted)}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:auto auto;gap:18px}
+.why-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--r-lg);padding:clamp(22px,2.6vw,30px);transition:transform .3s,border-color .3s,background .3s;position:relative;overflow:hidden}
+.why-card:hover{transform:translateY(-5px);border-color:rgba(26,166,183,.45);background:rgba(255,255,255,.08)}
+.why-card h3{color:#fff;font-size:1.25rem;margin:16px 0 10px}
+.why-card p{font-size:.92rem;color:var(--on-dark-muted);max-width:none}
+.why-card .ic-badge{width:48px;height:48px;border-radius:13px;display:grid;place-items:center;background:linear-gradient(145deg,rgba(26,166,183,.2),rgba(27,79,138,.28));border:1px solid rgba(26,166,183,.35);color:var(--teal-bright)}
+.why-lead{grid-row:span 2;display:flex;flex-direction:column;background:linear-gradient(160deg,rgba(26,166,183,.13),rgba(255,255,255,.05) 55%)}
+.why-lead .quote{margin-top:auto;padding-top:24px;font-family:var(--f-display);font-style:italic;font-size:1.06rem;color:var(--on-navy);border-top:1px solid rgba(255,255,255,.14)}
+.why-lead .quote span{display:block;font-family:var(--f-body);font-style:normal;font-size:.74rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--sky);margin-top:10px}
+.why-wide{grid-column:span 2;display:flex;gap:22px;align-items:flex-start;flex-wrap:wrap;background:linear-gradient(120deg,rgba(232,168,56,.14),rgba(255,255,255,.05) 60%);border-color:rgba(232,168,56,.35)}
+.why-wide .ic-badge{background:linear-gradient(145deg,rgba(232,168,56,.24),rgba(27,79,138,.25));border-color:rgba(232,168,56,.4);color:var(--teal-bright)}
+.why-wide .btn{margin-left:auto;align-self:center}
+.why-card .demo-tag{margin-top:16px}
+.why-mini-stats{display:flex;gap:26px;margin-top:22px}
+.why-mini-stats .m b{display:block;font:700 1.5rem var(--f-display);color:#fff}
+.why-mini-stats .m span{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--on-dark-faint)}
+
+/* ============================================================
+   13. ADMISSIONS TIMELINE
+============================================================ */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;position:relative;margin-top:12px}
+.steps::before{content:"";position:absolute;top:34px;left:calc(12.5% + 10px);right:calc(12.5% + 10px);height:3px;border-radius:3px;background:repeating-linear-gradient(90deg,rgba(10,31,68,.18) 0 10px,transparent 10px 20px)}
+.steps .bar{position:absolute;top:34px;left:calc(12.5% + 10px);height:3px;width:0;border-radius:3px;background:linear-gradient(90deg,var(--teal),var(--ocean));transition:width 1.6s cubic-bezier(.5,0,.2,1)}
+.steps.lit .bar{width:calc(75% - 20px + 20px)}
+.step{text-align:center;position:relative}
+.step-dot{width:68px;height:68px;margin:0 auto 18px;border-radius:50%;background:var(--white);border:2px solid rgba(10,31,68,.16);display:grid;place-items:center;color:var(--navy-800);font:700 1.2rem var(--f-display);position:relative;z-index:1;box-shadow:var(--sh-sm);transition:border-color .4s,transform .4s,color .4s,background .4s}
+.steps.lit .step-dot{border-color:var(--teal);color:var(--ocean);transform:scale(1.04)}
+.step-dot .ic{width:26px;height:26px}
+.step h3{font-size:1.08rem;margin-bottom:8px}
+.step p{font-size:.86rem;color:var(--muted);max-width:26ch;margin-inline:auto}
+.step .demo-tag{margin-top:10px}
+
+/* ============================================================
+   14. ELIGIBILITY CHECKER
+============================================================ */
+#eligibility{background:var(--paper);border-block:1px solid var(--line)}
+.elig-wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(24px,4vw,48px);align-items:start}
+.elig-form{background:var(--white);border:1px solid var(--line);border-radius:24px;padding:clamp(22px,3vw,34px);box-shadow:var(--sh-md)}
+.elig-form fieldset{border:0;display:grid;gap:18px}
+.elig-form legend{font:600 1.35rem var(--f-display);color:var(--navy-900);margin-bottom:6px}
+.elig-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.seg{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.seg label{position:relative;cursor:pointer}
+.seg input{position:absolute;opacity:0;pointer-events:none}
+.seg .seg-btn{display:flex;align-items:center;justify-content:center;min-height:48px;border:1.5px solid rgba(10,31,68,.2);border-radius:11px;font-size:.85rem;font-weight:700;color:var(--muted);transition:all .2s;text-align:center;padding:8px}
+.seg input:checked + .seg-btn{border-color:var(--ocean);background:var(--teal-soft);color:var(--ink);box-shadow:0 0 0 3px rgba(26,166,183,.16)}
+.seg input:focus-visible + .seg-btn{outline:3px solid var(--amber);outline-offset:2px}
+.elig-result{border-radius:24px;padding:clamp(22px,3vw,34px);background:linear-gradient(160deg,var(--navy-800),var(--navy-950));color:var(--on-navy);box-shadow:var(--sh-lg);min-height:340px;display:flex;flex-direction:column}
+.elig-result .placeholder{margin:auto;text-align:center;color:var(--on-dark-faint)}
+.elig-result .placeholder .ic{width:44px;height:44px;margin:0 auto 14px;color:var(--teal);opacity:.8}
+.elig-result h3{color:#fff;font-size:1.3rem;margin-bottom:6px}
+.elig-result .who{font-size:.82rem;color:var(--sky);font-weight:600;margin-bottom:18px}
+.path-sugg{display:grid;gap:10px;margin-bottom:18px}
+.path-sugg li{display:flex;gap:11px;align-items:flex-start;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.13);border-radius:13px;padding:13px 15px;font-size:.9rem}
+.path-sugg .ic{color:var(--teal);margin-top:3px}
+.path-sugg b{color:#fff}
+.elig-note{margin-top:auto;font-size:.76rem;color:var(--on-dark-faint);border:1.5px dashed rgba(232,168,56,.6);border-radius:12px;padding:11px 14px;background:rgba(232,168,56,.07)}
+.elig-result .btn{margin-top:16px;align-self:flex-start}
+
+/* ============================================================
+   15. PLACEMENTS / RECRUITERS
+============================================================ */
+.rec-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:8px}
+.rec-logo{aspect-ratio:2.6/1;border:1.5px dashed rgba(10,31,68,.3);border-radius:var(--r-md);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;background:var(--white);color:var(--muted);transition:transform .25s,border-color .25s}
+.rec-logo:hover{transform:translateY(-3px);border-color:var(--ocean)}
+.rec-logo .glyph{display:flex;align-items:center;gap:6px;opacity:.55}
+.rec-logo .glyph i{width:16px;height:16px;border-radius:4px;background:linear-gradient(135deg,var(--sky),var(--ocean-soft))}
+.rec-logo .glyph i.round{border-radius:50%}
+.rec-logo span{font-size:.64rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.rec-note{margin-top:22px}
+
+/* ============================================================
+   16. FACULTY & CAMPUS
+============================================================ */
+#faculty{background:var(--cream)}
+.fac-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:clamp(40px,6vw,64px)}
+.fac-card{background:var(--white);border:1px solid var(--line);border-radius:var(--r-lg);padding:26px;box-shadow:var(--sh-sm);transition:transform .3s,box-shadow .3s}
+.fac-card:hover{transform:translateY(-5px);box-shadow:var(--sh-md)}
+.fac-photo{width:84px;height:84px;border-radius:24px;margin-bottom:18px;display:grid;place-items:center;color:#fff;font:700 1.5rem var(--f-display);letter-spacing:.02em;position:relative}
+.fac-photo.a{background:linear-gradient(145deg,var(--navy-700),var(--navy-950))}
+.fac-photo.b{background:linear-gradient(145deg,var(--ocean),var(--navy-950))}
+.fac-photo.c{background:linear-gradient(145deg,var(--ocean),var(--navy-800))}
+.fac-photo::after{content:"[photo]";position:absolute;bottom:-9px;left:50%;transform:translateX(-50%);font:600 .56rem var(--f-body);letter-spacing:.1em;text-transform:uppercase;color:var(--demo-ink);background:var(--demo-bg);border:1px dashed var(--demo-border);padding:2px 8px;border-radius:99px}
+.fac-card h3{font-size:1.12rem}
+.fac-card .role{display:block;font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ocean);margin:4px 0 12px}
+.fac-card p{font-size:.86rem;color:var(--muted)}
+.campus-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:170px;gap:14px}
+.tile{border-radius:var(--r-lg);position:relative;overflow:hidden;display:flex;align-items:flex-end;padding:18px;color:#fff;transition:transform .35s}
+.tile:hover{transform:translateY(-4px)}
+.tile::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(10,31,68,.72))}
+.tile .cap{position:relative;font-size:.82rem;font-weight:700;display:flex;flex-direction:column;gap:3px}
+.tile .cap small{font-weight:600;font-size:.66rem;opacity:.8;text-transform:uppercase;letter-spacing:.12em}
+.tile .wm{position:absolute;right:12px;top:12px;width:30px;height:30px;opacity:.5}
+.tile-1{background:linear-gradient(140deg,var(--navy-700),var(--navy-900))}
+.tile-2{background:linear-gradient(140deg,var(--ocean),var(--navy-800))}
+.tile-3{background:linear-gradient(140deg,var(--teal),var(--navy-800))}
+.tile-4{background:linear-gradient(140deg,var(--sky),var(--ocean))}
+.tile-5{background:linear-gradient(140deg,var(--navy-800),var(--ink))}
+.tile-6{background:linear-gradient(140deg,var(--navy-800),var(--navy-950))}
+.tile-video{grid-column:span 2;background:
+  radial-gradient(300px 160px at 70% 20%,rgba(26,166,183,.3),transparent 60%),
+  linear-gradient(140deg,var(--navy-800),var(--navy-950));align-items:center;justify-content:center;text-align:center;cursor:pointer;border:1px dashed rgba(232,168,56,.55)}
+.tile-video::before{display:none}
+.tile-video .play{width:64px;height:64px;border-radius:50%;background:linear-gradient(180deg,var(--teal),var(--ocean));color:var(--navy-900);display:grid;place-items:center;margin:0 auto 12px;box-shadow:0 10px 26px rgba(10,31,68,.4);transition:transform .3s}
+.tile-video:hover .play{transform:scale(1.1)}
+.tile-video .play .ic{margin-left:3px}
+.tile-video .cap{align-items:center}
+.tile-video .cap small{color:var(--demo-border)}
+
+/* ============================================================
+   17. TESTIMONIALS CAROUSEL
+============================================================ */
+#stories{background:var(--navy-950);color:var(--on-navy);position:relative;overflow:hidden}
+#stories::before{content:"";position:absolute;inset:-40% -20% auto;height:120%;background:radial-gradient(600px 400px at 80% 0%,rgba(27,79,138,.28),transparent 60%);pointer-events:none}
+#stories h2{color:#fff}
+#stories .sec-head p.lede{color:var(--on-dark-muted)}
+.t-shell{position:relative}
+.t-viewport{overflow:hidden;margin:0 -8px;padding:8px}
+.t-track{display:flex;transition:transform .65s cubic-bezier(.5,0,.15,1)}
+.t-slide{flex:0 0 calc(100%/3);padding:0 8px}
+.t-card{height:100%;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--r-lg);overflow:hidden;display:flex;flex-direction:column;transition:transform .3s,border-color .3s}
+.t-card:hover{transform:translateY(-5px);border-color:rgba(26,166,183,.4)}
+.t-thumb{position:relative;aspect-ratio:16/9;display:grid;place-items:center}
+.t-thumb.g1{background:linear-gradient(135deg,var(--navy-700),var(--navy-900))}
+.t-thumb.g2{background:linear-gradient(135deg,var(--teal),var(--navy-950))}
+.t-thumb.g3{background:linear-gradient(135deg,var(--ocean),var(--navy-800))}
+.t-thumb.g4{background:linear-gradient(135deg,var(--ocean),var(--sky))}
+.t-thumb.g5{background:linear-gradient(135deg,var(--navy-800),var(--navy-900))}
+.t-thumb .wm{position:absolute;right:12px;bottom:10px;width:26px;height:26px;opacity:.4;color:#fff}
+.t-play{width:52px;height:52px;border-radius:50%;background:rgba(255,255,255,.14);border:1.5px solid rgba(255,255,255,.45);color:#fff;display:grid;place-items:center;backdrop-filter:blur(4px)}
+.t-play .ic{margin-left:2px}
+.t-dur{position:absolute;left:10px;bottom:10px;font-size:.66rem;font-weight:700;background:rgba(10,31,68,.75);padding:4px 9px;border-radius:7px;color:var(--on-dark-hint)}
+.t-body{padding:18px 20px 20px;display:flex;flex-direction:column;gap:10px;flex:1}
+.t-quote{font-size:.9rem;color:var(--on-navy)}
+.t-quote::before{content:"“";font:700 2rem/0 var(--f-display);color:var(--teal);margin-right:4px;vertical-align:-8px}
+.t-card .demo-tag{align-self:flex-start;margin-top:auto}
+.t-controls{display:flex;align-items:center;gap:14px;margin-top:26px}
+.t-btn{width:48px;height:48px;border-radius:50%;border:1.5px solid rgba(255,255,255,.3);color:#fff;display:grid;place-items:center;transition:background .25s,transform .25s}
+.t-btn:hover{background:rgba(255,255,255,.12);transform:translateY(-2px)}
+.t-btn[disabled]{opacity:.35;pointer-events:none}
+.t-dots{display:flex;gap:8px;margin-left:6px}
+.t-dot{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.25);transition:background .25s,transform .25s;min-width:0;min-height:0;padding:0}
+.t-dot[aria-current="true"]{background:var(--teal);transform:scale(1.3)}
+
+/* ============================================================
+   18. VERIFY GUIDE
+============================================================ */
+.verify-card{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(24px,4vw,52px);background:var(--white);border:1.5px solid rgba(10,31,68,.14);border-radius:28px;padding:clamp(26px,4vw,48px);box-shadow:var(--sh-md);position:relative;overflow:hidden}
+.verify-card::before{content:"";position:absolute;inset:0 auto 0 0;width:6px;background:linear-gradient(180deg,var(--teal),var(--ocean),#C08A54)}
+.verify-left h2{font-size:clamp(1.5rem,2.6vw,2rem)}
+.verify-left p{color:var(--muted);font-size:.95rem;margin-top:14px}
+.verify-left .btn{margin-top:22px}
+.check-list{display:grid;gap:12px;counter-reset:chk}
+.check-list li{display:flex;gap:15px;align-items:flex-start;background:var(--cream);border:1px solid var(--line);border-radius:14px;padding:15px 18px;font-size:.9rem;transition:transform .25s,border-color .25s}
+.check-list li:hover{transform:translateX(5px);border-color:var(--teal)}
+.check-list li::before{counter-increment:chk;content:counter(chk);width:30px;height:30px;flex:none;border-radius:50%;background:var(--navy-900);color:var(--teal);display:grid;place-items:center;font:700 .85rem var(--f-display)}
+.check-list b{color:var(--navy-900)}
+.verify-flag{display:flex;gap:11px;align-items:flex-start;margin-top:16px;background:#FBEDEB;border:1px solid #EBC5C0;color:#8A2A20;border-radius:14px;padding:14px 18px;font-size:.86rem}
+.verify-flag .ic{color:#C0392B;margin-top:2px}
+
+/* ============================================================
+   19. FAQ ACCORDION
+============================================================ */
+.faq-list{max-width:820px;margin-inline:auto;display:grid;gap:12px}
+.acc-item{background:var(--white);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:border-color .3s,box-shadow .3s}
+.acc-item.open{border-color:rgba(27,79,138,.4);box-shadow:var(--sh-sm)}
+.acc-btn{width:100%;display:flex;align-items:center;gap:14px;text-align:left;padding:19px 22px;font-weight:700;font-size:1rem;color:var(--navy-900);min-height:56px}
+.acc-btn .ic.chev{margin-left:auto;color:var(--ocean);transition:transform .35s}
+.acc-item.open .acc-btn .ic.chev{transform:rotate(180deg)}
+.acc-btn .q-ic{width:34px;height:34px;flex:none;border-radius:10px;background:var(--teal-soft);color:var(--ocean);display:grid;place-items:center}
+.acc-panel{display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s cubic-bezier(.5,0,.15,1)}
+.acc-item.open .acc-panel{grid-template-rows:1fr}
+.acc-panel-inner{overflow:hidden}
+.acc-panel p{padding:0 22px 20px 70px;font-size:.92rem;color:var(--muted)}
+.acc-panel .demo-tag{margin:0 22px 20px 70px}
+
+/* ============================================================
+   20. FINAL CTA BAND
+============================================================ */
+.cta-band{position:relative;background:linear-gradient(160deg,var(--navy-800),var(--navy-900) 55%,var(--navy-950));color:#fff;overflow:hidden}
+.cta-band .hero-waves{top:-1px;bottom:auto;transform:rotate(180deg)}
+.cta-band .wave path{fill:var(--surface)}/* match FAQ section background for a clean seam */
+.cta-inner{position:relative;padding:clamp(84px,10vw,130px) 0 clamp(64px,8vw,96px);display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(28px,4vw,60px);align-items:center}
+.cta-inner h2{color:#fff;font-size:clamp(1.9rem,3.6vw,2.8rem);max-width:16ch}
+.cta-inner .lede{color:var(--on-dark-muted);margin-top:16px;font-size:1rem}
+.cta-points{margin-top:24px;display:grid;gap:12px}
+.cta-points li{display:flex;gap:11px;align-items:center;font-size:.92rem;color:var(--on-navy)}
+.cta-points .ic{color:var(--teal)}
+.cta-contact-chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.chip{display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:10px 17px;font-size:.84rem;font-weight:600;color:#fff;background:rgba(255,255,255,.06);transition:background .25s,transform .25s;min-height:44px}
+.chip:hover{background:rgba(255,255,255,.13);transform:translateY(-2px)}
+.chip .ic{color:var(--teal)}
+
+/* ============================================================
+   21. FOOTER
+============================================================ */
+.footer{background:var(--navy-950);color:#8CA69A;padding:clamp(56px,7vw,80px) 0 0;font-size:.9rem}
+.foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:36px;padding-bottom:44px}
+.foot-brand p{margin-top:16px;font-size:.86rem;max-width:34ch}
+.footer .brand-txt span{color:var(--teal)}/* tagline highlight on dark footer */
+.foot-col h3{color:#fff;font-family:var(--f-body);font-size:.78rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin-bottom:18px}
+.foot-col ul{display:grid;gap:4px}
+.foot-col a{display:inline-flex;align-items:center;min-height:36px;padding:5px 0;color:#8CA69A;transition:color .2s,transform .2s}
+.foot-col a:hover{color:#fff;transform:translateX(3px)}
+.foot-contact li{display:flex;gap:11px;align-items:flex-start;padding:7px 0}
+.foot-contact .ic{color:var(--teal);margin-top:4px}
+.socials{display:flex;gap:10px;margin-top:20px}
+.socials a{width:42px;height:42px;border-radius:11px;border:1px solid rgba(255,255,255,.18);display:grid;place-items:center;color:var(--on-dark-muted);transition:background .25s,transform .25s,color .25s}
+.socials a:hover{background:rgba(255,255,255,.1);color:#fff;transform:translateY(-3px)}
+.foot-disclaimer{border:1.5px dashed rgba(232,168,56,.5);background:rgba(232,168,56,.06);color:#C9D8CE;border-radius:14px;padding:16px 20px;font-size:.8rem;display:flex;gap:12px;margin-bottom:26px}
+.foot-disclaimer .ic{color:var(--teal);flex:none;margin-top:2px}
+.foot-legal{display:flex;flex-wrap:wrap;gap:8px 26px;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,.12);padding:22px 0 calc(22px + env(safe-area-inset-bottom));font-size:.8rem}
+.foot-legal nav{display:flex;flex-wrap:wrap;gap:6px 22px}
+.foot-legal a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px}
+
+/* ============================================================
+   22. MOBILE STICKY BAR + WHATSAPP FLOAT
+============================================================ */
+.mobile-bar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:95;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-top:1px solid var(--line);box-shadow:0 -8px 30px rgba(10,31,68,.12);grid-template-columns:1fr 1fr 1fr;padding:8px 10px calc(8px + env(safe-area-inset-bottom))}
+.mobile-bar a{display:flex;flex-direction:column;align-items:center;gap:3px;min-height:52px;justify-content:center;border-radius:12px;font-size:.68rem;font-weight:800;letter-spacing:.04em;color:var(--navy-800)}
+.mobile-bar a:active{background:rgba(27,79,138,.08)}
+.mobile-bar .ic{width:20px;height:20px}
+.mb-wa .ic{color:#128C5E}/* WhatsApp semantic green */
+.mb-enquire{background:linear-gradient(180deg,var(--gold-light),var(--gold-500)) !important;color:var(--amber-ink) !important;box-shadow:0 4px 14px var(--cta-glow)}
+.wa-float{display:none;position:fixed;right:22px;bottom:22px;z-index:95;width:58px;height:58px;border-radius:50%;background:linear-gradient(145deg,#25D366,#128C5E);color:#fff;place-items:center;box-shadow:0 12px 30px rgba(18,140,96,.45);transition:transform .25s}
+.wa-float:hover{transform:translateY(-4px) scale(1.05)}
+.wa-float::before{content:"";position:absolute;inset:-5px;border-radius:50%;border:2px solid rgba(37,211,102,.5);animation:pulse 2.6s infinite}
+.wa-float .ic{width:27px;height:27px}
+
+/* ============================================================
+   23. MODAL & TOAST
+============================================================ */
+.modal{position:fixed;inset:0;z-index:120;display:none;align-items:center;justify-content:center;padding:18px}
+.modal.open{display:flex}
+.modal-backdrop{position:absolute;inset:0;background:rgba(10,31,68,.62);backdrop-filter:blur(5px)}
+.modal-box{position:relative;width:min(460px,100%);background:var(--paper);border-radius:24px;padding:30px;box-shadow:var(--sh-lg);animation:modalIn .4s cubic-bezier(.3,1.3,.4,1)}
+@keyframes modalIn{from{transform:translateY(26px) scale(.97);opacity:0}}
+.modal-box h2{font-size:1.35rem;padding-right:40px}
+.modal-box .lead-sub{font-size:.86rem;color:var(--muted);margin:6px 0 18px}
+.modal-close{position:absolute;top:16px;right:16px;width:42px;height:42px;border-radius:11px;border:1px solid var(--line);display:grid;place-items:center;color:var(--navy-800);transition:background .2s}
+.modal-close:hover{background:#fff}
+.toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,140%);z-index:130;display:flex;align-items:center;gap:10px;background:var(--navy-900);color:#fff;font-size:.86rem;font-weight:600;padding:13px 22px;border-radius:999px;box-shadow:var(--sh-lg);transition:transform .45s cubic-bezier(.3,1.2,.4,1);max-width:min(92vw,480px);text-align:center}
+
+/* ============================================================
+   27. DEV PALETTE SWITCHER (hidden — toggle with Shift+P)
+   Client/dev tool only; overrides the same palette variables.
+============================================================ */
+.dev-panel{position:fixed;right:16px;bottom:96px;z-index:150;width:248px;background:rgba(10,31,68,.94);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.16);border-radius:18px;padding:16px;color:var(--on-navy);box-shadow:0 24px 60px rgba(5,15,39,.5);transform:translateY(14px) scale(.97);opacity:0;pointer-events:none;transition:opacity .3s,transform .3s}
+.dev-panel.open{opacity:1;transform:none;pointer-events:auto}
+.dev-panel h2{font:700 .62rem/1 var(--f-body);letter-spacing:.2em;text-transform:uppercase;color:var(--teal);margin-bottom:2px;display:flex;align-items:center;gap:7px}
+.dev-panel .hint{font-size:.62rem;color:var(--on-navy-muted);margin:6px 0 12px}
+.dev-panel .hint kbd{border:1px solid rgba(255,255,255,.3);border-radius:5px;padding:1px 5px;font:600 .58rem var(--f-body)}
+.dp-opt{display:flex;align-items:center;gap:10px;width:100%;text-align:left;padding:9px 10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);margin-bottom:8px;transition:border-color .2s,background .2s;min-height:44px}
+.dp-opt:hover{background:rgba(255,255,255,.1)}
+.dp-opt[aria-pressed="true"]{border-color:var(--teal);background:rgba(255,255,255,.1);box-shadow:0 0 0 1px var(--teal)}
+.dp-sw{display:flex;gap:4px;flex:none}
+.dp-sw i{width:15px;height:15px;border-radius:50%;border:1.5px solid rgba(255,255,255,.5)}
+.dp-name{font-size:.76rem;font-weight:700;color:var(--on-navy)}
+.dp-name small{display:block;font-weight:600;font-size:.58rem;color:var(--on-navy-muted);letter-spacing:.06em}
+@media(max-width:640px){.dev-panel{bottom:150px}}
+.toast.show{transform:translate(-50%,0)}
+.toast .ic{color:var(--teal)}
+
+/* ============================================================
+   24. SCROLL REVEAL
+============================================================ */
+/* Framer-style slide-in: generous upward movement, soft easing */
+.reveal{opacity:0;transform:translateY(56px);transition:opacity .9s cubic-bezier(.22,.61,.21,1),transform .9s cubic-bezier(.22,.61,.21,1);transition-delay:var(--d,0s);will-change:opacity,transform}
+.reveal.in{opacity:1;transform:none}
+
+/* ============================================================
+   25. RESPONSIVE
+============================================================ */
+@media(max-width:1024px){
+  .t-slide{flex-basis:50%}
+  .course-grid{grid-template-columns:1fr 1fr}
+  .why-grid{grid-template-columns:1fr 1fr}
+  .why-lead{grid-row:auto;grid-column:span 2}
+  .hero-grid{grid-template-columns:1fr;gap:40px;padding-bottom:140px}
+  .lead-card{max-width:560px}
+  .cta-inner{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:860px){
+  .nav-links{display:none}
+  .nav-cta .btn span{display:none}
+  .nav-cta .btn{padding:.95em 1em}
+  .burger{display:inline-flex}
+  .rec-strip{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:1fr;gap:34px}
+  .steps::before,.steps .bar{left:33px;right:auto;top:60px;bottom:30px;width:3px;height:auto}
+  .steps .bar{width:3px !important;height:0;transition:height 1.6s cubic-bezier(.5,0,.2,1)}
+  .steps.lit .bar{height:calc(100% - 120px)}
+  .step{display:grid;grid-template-columns:68px 1fr;gap:20px;text-align:left;align-items:start}
+  .step-dot{margin:0}
+  .step p{margin-inline:0;max-width:none}
+  .step .demo-tag{margin-top:8px}
+}
+@media(max-width:720px){
+  .paths-grid,.elig-wrap,.verify-card{grid-template-columns:1fr}
+  .t-slide{flex-basis:100%}
+  .campus-grid{grid-template-columns:1fr 1fr;grid-auto-rows:150px}
+  .tile-video{grid-column:span 2}
+  .t-controls{flex-wrap:wrap}
+}
+@media(min-width:861px){.mobile-menu{display:none !important}}/* never show mobile panel on desktop */
+@media(min-width:1024px){.wa-float{display:grid}}/* floating WhatsApp — desktop only */
+@media(max-width:640px){
+  body{padding-bottom:74px}
+  .mobile-bar{display:grid}
+  .wa-float{display:none !important}
+  .trust-grid{grid-template-columns:1fr 1fr}
+  .path-cards{grid-template-columns:1fr}
+  .course-grid{grid-template-columns:1fr}
+  .course-actions{grid-template-columns:1fr 1fr}
+  .why-grid{grid-template-columns:1fr}
+  .why-lead{grid-column:auto}
+  .why-wide{grid-column:auto}
+  .why-wide .btn{margin-left:0}
+  .elig-row{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr}
+  .acc-panel p,.acc-panel .demo-tag{padding-left:22px;margin-left:0}
+  .toast{bottom:92px}
+}
+@media(max-width:400px){
+  .brand-txt b{font-size:.82rem}
+  .brand-txt span{font-size:.56rem}
+  .stat .num{font-size:1.7rem}
+}
+
+/* ============================================================
+   26. REDUCED MOTION — disable all non-essential animation
+============================================================ */
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important}
+  .reveal{opacity:1;transform:none}
+  .wave,.hero-blob,.wa-float::before,.eyebrow .pulse{animation:none !important}
+}
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+  SVG ICON SPRITE (inline, stroke-based — no external assets)
+============================================================ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-anchor" viewBox="0 0 24 24"><circle cx="12" cy="5" r="3"/><line x1="12" y1="22" x2="12" y2="8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/></symbol>
+    <symbol id="i-ship" viewBox="0 0 24 24"><path d="M4 17.5 2.7 14l9.3-2.6L21.3 14 20 17.5"/><path d="M12 11.4V4.5"/><path d="M8 11.6V8.5L12 7l4 1.5v3.6"/><path d="M2 21c1.7 0 1.7-1.4 3.4-1.4S7 21 8.7 21s1.7-1.4 3.4-1.4S13.8 21 15.5 21s1.6-1.4 3.3-1.4S20.3 21 22 21"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></symbol>
+    <symbol id="i-waves" viewBox="0 0 24 24"><path d="M2 8c1.7 0 1.7-1.3 3.3-1.3S7 8 8.7 8s1.7-1.3 3.3-1.3S13.7 8 15.4 8s1.6-1.3 3.3-1.3S20.4 8 22 8"/><path d="M2 13c1.7 0 1.7-1.3 3.3-1.3S7 13 8.7 13s1.7-1.3 3.3-1.3S13.7 13 15.4 13s1.6-1.3 3.3-1.3S20.4 13 22 13"/><path d="M2 18c1.7 0 1.7-1.3 3.3-1.3S7 18 8.7 18s1.7-1.3 3.3-1.3S13.7 18 15.4 18s1.6-1.3 3.3-1.3S20.4 18 22 18"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
+    <symbol id="i-chev-d" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></symbol>
+    <symbol id="i-chev-l" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></symbol>
+    <symbol id="i-chev-r" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></symbol>
+    <symbol id="i-check-c" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="8.5 12.2 11 14.7 15.5 9.8"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+    <symbol id="i-shield-check" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></symbol>
+    <symbol id="i-arrow-r" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><polygon points="7 4 20 12 7 20 7 4"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-grad" viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.5 12.9 17 22l-5-3-5 3 1.5-9.1"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7z"/></symbol>
+    <symbol id="i-utensils" viewBox="0 0 24 24"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-clipboard" viewBox="0 0 24 24"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><polyline points="9 13 11 15 15 11"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="19" r="3"/><circle cx="18" cy="5" r="3"/><path d="M12 19h4.5a3.5 3.5 0 0 0 0-7h-9a3.5 3.5 0 0 1 0-7H12"/></symbol>
+    <symbol id="i-inst" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="i-yt" viewBox="0 0 24 24"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><polygon points="10 15 15 12 10 9 10 15"/></symbol>
+    <symbol id="i-li" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4V8h4v1a6 6 0 0 1 2-1z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+    <symbol id="i-bed" viewBox="0 0 24 24"><path d="M2 4v16"/><path d="M2 8h18a2 2 0 0 1 2 2v10"/><path d="M2 17h20"/><path d="M6 8v9"/></symbol>
+    <symbol id="i-headset" viewBox="0 0 24 24"><path d="M3 14v-3a9 9 0 0 1 18 0v3"/><path d="M21 17a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h4zm-18 0a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2H3z"/><path d="M21 19a4 4 0 0 1-4 3h-3"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ============================================================
+  1. STICKY GLASS NAVBAR
+============================================================ -->
+<header class="nav" id="siteNav">
+  <div class="container nav-inner">
+    <a class="brand" href="#top" aria-label="National Global Academy — home (demo)">
+      <span class="brand-mark"><svg class="ic" aria-hidden="true"><use href="#i-anchor"/></svg></span>
+      <span class="brand-txt"><b>National Global Academy</b><span>Noida · Maritime Careers</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#courses">Courses</a>
+      <a href="#paths">About</a>
+      <a href="#admissions">Admissions</a>
+      <a href="#placements">Placements</a>
+      <a href="#faculty">Faculty</a>
+      <a href="#" data-demo-link>Blog</a><!-- DEMO: point to blog page when built -->
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <!-- DEMO: replace href with verified phone number -->
+      <a class="nav-phone" href="tel:+91XXXXXXXXXX" aria-label="Call us (demo number)"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg></a>
+      <a class="btn btn-amber" href="#lead"><svg class="ic" aria-hidden="true"><use href="#i-headset"/></svg><span>Free Counselling</span></a>
+      <button class="burger" id="burger" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+        <svg class="ic icon-menu" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="ic icon-x" aria-hidden="true"><use href="#i-x"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile">
+    <a href="#courses">Courses</a>
+    <a href="#paths">About</a>
+    <a href="#admissions">Admissions</a>
+    <a href="#placements">Placements</a>
+    <a href="#faculty">Faculty</a>
+    <a href="#" data-demo-link>Blog</a>
+    <a href="#contact">Contact</a>
+    <a class="btn btn-amber" href="#lead"><svg class="ic" aria-hidden="true"><use href="#i-headset"/></svg>Free Counselling</a>
+  </nav>
+</header>
+
+<main id="main">
+
+<!-- ============================================================
+  2. HERO — H1 + path cards + enquiry form + ambient waves
+============================================================ -->
+<section class="hero" id="top" aria-labelledby="hero-title">
+  <div class="hero-blob blob-1" aria-hidden="true"></div>
+  <div class="hero-blob blob-2" aria-hidden="true"></div>
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow reveal"><span class="pulse" aria-hidden="true"></span>Noida · Delhi NCR · Counsellor-led maritime training</p>
+      <h1 id="hero-title" class="reveal" style="--d:.08s">Merchant Navy &amp; <span class="accent">Cruise Line</span> Courses in Noida</h1>
+      <p class="hero-sub reveal" style="--d:.16s">Honest guidance, structured training and interview preparation for careers at sea. Every approval, statistic and name on this page is clearly marked so you can verify it before you trust it — including ours.</p>
+      <div class="hero-honesty reveal" style="--d:.22s">
+        <span class="demo-tag on-dark"><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg>[Approval details to be verified with client]</span>
+        <span class="demo-tag on-dark"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg>Demo website — all figures are placeholders</span>
+      </div>
+      <div class="path-cards">
+        <a class="path-card reveal" style="--d:.28s" href="#courses" data-filter-link="mn">
+          <span class="path-ic"><svg class="ic" aria-hidden="true"><use href="#i-anchor"/></svg></span>
+          <h3>I want to join the Merchant Navy</h3>
+          <p>Deck, engine &amp; rating roles on cargo &amp; tanker ships. Suits PCM / science students.</p>
+          <span class="path-link">See Merchant Navy courses<svg class="ic move" aria-hidden="true"><use href="#i-arrow-r"/></svg></span>
+        </a>
+        <a class="path-card cruise reveal" style="--d:.36s" href="#courses" data-filter-link="cruise">
+          <span class="path-ic"><svg class="ic" aria-hidden="true"><use href="#i-ship"/></svg></span>
+          <h3>I want to work on a Cruise Line</h3>
+          <p>Hospitality, F&amp;B, culinary &amp; guest services on international cruise ships. All streams.</p>
+          <span class="path-link">See Cruise Line courses<svg class="ic move" aria-hidden="true"><use href="#i-arrow-r"/></svg></span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Qualifying enquiry form (mock submit) -->
+    <div class="lead-card reveal" style="--d:.3s" id="lead">
+      <h2>Request a free counselling call</h2>
+      <p class="lead-sub">One honest conversation — about eligibility, costs and whether this career fits you. No spam, no pressure.</p>
+      <form class="lead-form" id="leadForm" novalidate>
+        <div class="field">
+          <label for="lf-name">Full name <span class="req" aria-hidden="true">*</span></label>
+          <input class="control" id="lf-name" name="name" type="text" autocomplete="name" placeholder="e.g. Aarav Singh" required data-validate="name">
+          <p class="err" id="lf-name-err"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><span>Please enter your full name (min. 3 letters).</span></p>
+        </div>
+        <div class="field">
+          <label for="lf-phone">Mobile number <span class="req" aria-hidden="true">*</span></label>
+          <input class="control" id="lf-phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" placeholder="10-digit mobile" required data-validate="phone" aria-describedby="lf-phone-hint">
+          <p class="sr-only" id="lf-phone-hint">Enter a 10-digit Indian mobile number.</p>
+          <p class="err" id="lf-phone-err"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><span>Enter a valid 10-digit Indian mobile number.</span></p>
+        </div>
+        <div class="field">
+          <label for="lf-qual">Highest qualification <span class="req" aria-hidden="true">*</span></label>
+          <select class="control" id="lf-qual" name="qualification" required data-validate="select">
+            <option value="" selected>Select qualification</option>
+            <option>12th pursuing</option>
+            <option>12th pass</option>
+            <option>Graduate</option>
+            <option>Other</option>
+          </select>
+          <p class="err" id="lf-qual-err"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><span>Please select your qualification.</span></p>
+        </div>
+        <div class="field">
+          <label for="lf-course">Interested course <span class="req" aria-hidden="true">*</span></label>
+          <select class="control" id="lf-course" name="course" required data-validate="select">
+            <option value="" selected>Select a course</option>
+            <option>GP Rating</option>
+            <option>DNS (Diploma in Nautical Science)</option>
+            <option>Marine Engineering</option>
+            <option>Cruise Hospitality &amp; Guest Services</option>
+            <option>F&amp;B Service for Cruise Ships</option>
+            <option>Housekeeping Operations</option>
+            <option>Galley &amp; Culinary Arts</option>
+            <option>Not sure yet — need guidance</option>
+          </select>
+          <p class="err" id="lf-course-err"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><span>Please choose a course or “Not sure yet”.</span></p>
+        </div>
+        <div class="field check-row">
+          <input id="lf-consent" type="checkbox" required data-validate="check">
+          <label for="lf-consent">I agree to be contacted by phone or WhatsApp about counselling. <span class="req" aria-hidden="true">*</span></label>
+        </div>
+        <p class="err" id="lf-consent-err"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><span>Please tick the consent box so we can call you.</span></p>
+        <div class="form-foot">
+          <button class="btn btn-amber" type="submit">Request free callback<svg class="ic move" aria-hidden="true"><use href="#i-arrow-r"/></svg></button>
+          <p class="promise"><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg>Call back within 15 minutes <span class="demo-tag" style="margin-left:2px">[DEMO promise — confirm SLA with client]</span></p>
+          <p class="alt-contact">Prefer WhatsApp? <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener">Chat with a counsellor</a><!-- DEMO number --></p>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- ambient animated waves -->
+  <div class="hero-waves" aria-hidden="true">
+    <svg class="wave wave-1" viewBox="0 0 2880 130" preserveAspectRatio="none"><path d="M0 70C240 30 480 110 720 78 960 46 1200 96 1440 70c240-40 480 40 720 8 240-32 480 18 720-8v60H0Z"/></svg>
+    <svg class="wave wave-2" viewBox="0 0 2880 130" preserveAspectRatio="none"><path d="M0 84c260-34 460 26 720 6s460-44 720-16 460 30 720 10 460-40 720-14v60H0Z" opacity=".9"/></svg>
+  </div>
+</section>
+
+<!-- ============================================================
+  3. TRUST BAR — animated counters (all DEMO placeholders)
+============================================================ -->
+<section class="trust container" aria-label="Trust indicators (demo figures)">
+  <div class="trust-grid">
+    <div class="stat reveal">
+      <span class="num"><span data-count="2500">0</span><em>+</em></span>
+      <span class="lbl">Students trained</span>
+      <span class="demo-tag"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg>[DEMO figure — replace with verified data]</span>
+    </div>
+    <div class="stat reveal" style="--d:.08s">
+      <span class="num"><span data-count="12">0</span><em>+</em></span>
+      <span class="lbl">Years of operation</span>
+      <span class="demo-tag"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg>[DEMO figure — replace with verified data]</span>
+    </div>
+    <div class="stat reveal" style="--d:.16s">
+      <span class="num"><span data-count="40">0</span><em>+</em></span>
+      <span class="lbl">Recruiter partners</span>
+      <span class="demo-tag"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg>[DEMO figure — replace with verified data]</span>
+    </div>
+    <div class="stat reveal" style="--d:.24s">
+      <span class="num"><span data-count="60">0</span><em>+</em></span>
+      <span class="lbl">Batches completed</span>
+      <span class="demo-tag"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg>[DEMO figure — replace with verified data]</span>
+    </div>
+  </div>
+  <div class="badge-row reveal" style="--d:.1s">
+    <span class="approval-badge"><svg class="ic" aria-hidden="true"><use href="#i-shield-check"/></svg>[Approval details to be verified with client]</span>
+    <span class="approval-badge"><svg class="ic" aria-hidden="true"><use href="#i-award"/></svg>[Affiliations &amp; certifications — to be confirmed]</span>
+    <span class="approval-badge"><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg>[Registration / licence numbers — to be added]</span>
+  </div>
+</section>
+
+<!-- ============================================================
+  4. TWO CAREER PATHS — Merchant Navy vs Cruise Line
+============================================================ -->
+<section class="section" id="paths" aria-labelledby="paths-title">
+  <div class="container">
+    <div class="sec-head center reveal">
+      <p class="kicker">Choose your sea</p>
+      <h2 id="paths-title">Two very different careers at sea.</h2>
+      <p class="lede">Most confusion — and most bad decisions — come from mixing these up. Here is the honest side-by-side. A counsellor will help you pick what actually fits you.</p>
+    </div>
+    <div class="paths-grid">
+      <!-- Merchant Navy panel -->
+      <article class="path-panel mn reveal" aria-labelledby="mn-title">
+        <span class="panel-ic"><svg class="ic" aria-hidden="true"><use href="#i-anchor"/></svg></span>
+        <h3 id="mn-title">Merchant Navy</h3>
+        <p class="tag-role">Cargo · Tanker · Container ships — technical roles</p>
+        <dl class="panel-rows">
+          <div class="panel-row"><dt>Who it’s for</dt><dd>Students with Physics, Chemistry &amp; Maths (PCM) aiming for officer ranks; rating routes exist for wider criteria. <em>[verify current criteria]</em></dd></div>
+          <div class="panel-row"><dt>Entry route</dt><dd>Eligibility &amp; medicals → pre-sea training (GP Rating, DNS, Marine Engg.) → sponsored sea time as a trainee. <em>[confirm pathway with client]</em></dd></div>
+          <div class="panel-row"><dt>Job roles</dt><dd>Deck Cadet → Captain · Engine Cadet → Chief Engineer · GP Rating (deck/engine support)</dd></div>
+          <div class="panel-row"><dt>Outcomes</dt><dd><span class="demo-tag on-dark"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg>[DEMO: indicative salary ranges to be added by client — never guarantee]</span></dd></div>
+          <div class="panel-row"><dt>Regulation</dt><dd>Seafarer training is regulated by the national maritime administration under STCW conventions. <span class="demo-tag on-dark"><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg>[Approval details to be verified with client]</span></dd></div>
+        </dl>
+        <div class="panel-ctas">
+          <a class="btn btn-amber btn-sm" href="#courses" data-filter-link="mn">Explore courses<svg class="ic move" aria-hidden="true"><use href="#i-arrow-r"/></svg></a>
+          <a class="btn btn-outline-light btn-sm" href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-chat"/></svg>Ask on WhatsApp</a>
+        </div>
+      </article>
+      <!-- Cruise Line panel -->
+      <article class="path-panel cruise reveal" style="--d:.12s" aria-labelledby="cl-title">
+        <span class="panel-ic"><svg class="ic" aria-hidden="true"><use href="#i-ship"/></svg></span>
+        <h3 id="cl-title">Cruise Line</h3>
+        <p class="tag-role">Passenger ships — hospitality &amp; service roles</p>
+        <dl class="panel-rows">
+          <div class="panel-row"><dt>Who it’s for</dt><dd>Any stream. 12th pass or graduates with good communication, grooming and a service mindset.</dd></div>
+          <div class="panel-row"><dt>Entry route</dt><dd>Short hospitality + maritime familiarisation course → interviews with cruise recruiters. <em>[confirm recruiters with client]</em></dd></div>
+          <div class="panel-row"><dt>Job roles</dt><dd>Guest services · F&amp;B service · Housekeeping · Galley &amp; culinary · Front desk</dd></div>
+          <div class="panel-row"><dt>Outcomes</dt><dd><span class="demo-tag on-dark"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg>[DEMO: indicative salary ranges to be added by client — never guarantee]</span></dd></div>
+          <div class="panel-row"><dt>Regulation</dt><dd>Roles are contract-based with cruise brands. Always verify who the recruiting partner is before paying anyone. <span class="demo-tag on-dark"><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg>[Recruiter list to be verified with client]</span></dd></div>
+        </dl>
+        <div class="panel-ctas">
+          <a class="btn btn-amber btn-sm" href="#courses" data-filter-link="cruise">Explore courses<svg class="ic move" aria-hidden="true"><use href="#i-arrow-r"/></svg></a>
+          <a class="btn btn-outline-light btn-sm" href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-chat"/></svg>Ask on WhatsApp</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+  5. COURSES — filterable cards
+============================================================ -->
+<section class="section" id="courses" aria-labelledby="courses-title">
+  <div class="container">
+    <div class="sec-head reveal">
+      <p class="kicker">Courses &amp; pathways</p>
+      <h2 id="courses-title">Pick a course — or let us help you pick.</h2>
+      <p class="lede">Realistic course names below; every name, duration and fee must be confirmed before publishing.</p>
+      <span class="demo-tag"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg>[Course names, durations, fees &amp; intakes — confirm with client]</span>
+    </div>
+    <div class="tabs reveal" role="group" aria-label="Filter courses">
+      <button class="tab" data-filter="all" aria-pressed="true">All courses</button>
+      <button class="tab" data-filter="mn" aria-pressed="false">Merchant Navy</button>
+      <button class="tab" data-filter="cruise" aria-pressed="false">Cruise Line</button>
+    </div>
+    <div class="course-grid" id="courseGrid">
+
+      <article class="course-card reveal" data-cat="mn">
+        <span class="cat-chip mn">Merchant Navy</span>
+        <h3>GP Rating <span style="font-size:.8rem;color:var(--muted);font-family:var(--f-body);font-weight:600">(General Purpose Rating)</span></h3>
+        <ul class="course-meta">
+          <li><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg><span>Duration: <b>~6 months pre-sea </b></span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-grad"/></svg><span>Eligibility: <b>10th/12th pass · age &amp; medical norms apply</b></span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg><span>Leads to deck/engine rating roles with sea time</span></li>
+        </ul>
+        <span class="demo-tag">[confirm details with client]</span>
+        <div class="course-actions">
+          <button class="btn btn-ghost btn-sm" data-brochure="GP Rating"><svg class="ic" aria-hidden="true"><use href="#i-download"/></svg>Brochure</button>
+          <button class="btn btn-amber btn-sm" data-enquire="GP Rating">Enquire</button>
+        </div>
+      </article>
+
+      <article class="course-card reveal" style="--d:.06s" data-cat="mn">
+        <span class="cat-chip mn">Merchant Navy</span>
+        <h3>DNS — Diploma in Nautical Science</h3>
+        <ul class="course-meta">
+          <li><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg><span>Duration: <b>~12 months pre-sea</b></span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-grad"/></svg><span>Eligibility: <b>12th PCM · medical &amp; eyesight norms</b></span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg><span>Deck-officer pathway towards B.Sc. Nautical Science</span></li>
+        </ul>
+        <span class="demo-tag">[confirm details with client]</span>
+        <div class="course-actions">
+          <button class="btn btn-ghost btn-sm" data-brochure="DNS (Diploma in Nautical Science)"><svg class="ic" aria-hidden="true"><use href="#i-download"/></svg>Brochure</button>
+          <button class="btn btn-amber btn-sm" data-enquire="DNS (Diploma in Nautical Science)">Enquire</button>
+        </div>
+      </article>
+
+      <article class="course-card reveal" style="--d:.12s" data-cat="mn">
+        <span class="cat-chip mn">Merchant Navy</span>
+        <h3>Marine Engineering <span style="font-size:.8rem;color:var(--muted);font-family:var(--f-body);font-weight:600">(B.Tech / GME)</span></h3>
+        <ul class="course-meta">
+          <li><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg><span>Duration: <b>4 yrs degree · 1 yr GME for graduates</b></span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-grad"/></svg><span>Eligibility: <b>12th PCM · or B.E./B.Tech (Mech) for GME</b></span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg><span>Engine-officer pathway to Chief Engineer</span></li>
+        </ul>
+        <span class="demo-tag">[confirm details with client]</span>
+        <div class="course-actions">
+          <button class="btn btn-ghost btn-sm" data-brochure="Marine Engineering"><svg class="ic" aria-hidden="true"><use href="#i-download"/></svg>Brochure</button>
+          <button class="btn btn-amber btn-sm" data-enquire="Marine Engineering">Enquire</button>
+        </div>
+      </article>
+
+      <article class="course-card reveal" data-cat="cruise">
+        <span class="cat-chip cruise">Cruise Line</span>
+        <h3>Cruise Hospitality &amp; Guest Services</h3>
+        <ul class="course-meta">
+          <li><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg><span>Duration: <b>~6–8 months</b></span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-grad"/></svg><span>Eligibility: <b>12th pass, any stream · communication skills</b></span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg><span>Front desk, guest relations &amp; onboard services</span></li>
+        </ul>
+        <span class="demo-tag">[confirm details with client]</span>
+        <div class="course-actions">
+          <button class="btn btn-ghost btn-sm" data-brochure="Cruise Hospitality &amp; Guest Services"><svg class="ic" aria-hidden="true"><use href="#i-download"/></svg>Brochure</button>
+          <button class="btn btn-amber btn-sm" data-enquire="Cruise Hospitality &amp; Guest Services">Enquire</button>
+        </div>
+      </article>
+
+      <article class="course-card reveal" style="--d:.06s" data-cat="cruise">
+        <span class="cat-chip cruise">Cruise Line</span>
+        <h3>F&amp;B Service for Cruise Ships</h3>
+        <ul class="course-meta">
+          <li><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg><span>Duration: <b>~4–6 months</b></span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-grad"/></svg><span>Eligibility: <b>12th pass, any stream</b></span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg><span>Restaurant, bar &amp; banquet service onboard</span></li>
+        </ul>
+        <span class="demo-tag">[confirm details with client]</span>
+        <div class="course-actions">
+          <button class="btn btn-ghost btn-sm" data-brochure="F&amp;B Service for Cruise Ships"><svg class="ic" aria-hidden="true"><use href="#i-download"/></svg>Brochure</button>
+          <button class="btn btn-amber btn-sm" data-enquire="F&amp;B Service for Cruise Ships">Enquire</button>
+        </div>
+      </article>
+
+      <article class="course-card reveal" style="--d:.12s" data-cat="cruise">
+        <span class="cat-chip cruise">Cruise Line</span>
+        <h3>Housekeeping Operations</h3>
+        <ul class="course-meta">
+          <li><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg><span>Duration: <b>~4–6 months</b></span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-grad"/></svg><span>Eligibility: <b>12th pass, any stream</b></span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg><span>Cabin &amp; public-area operations to supervisory roles</span></li>
+        </ul>
+        <span class="demo-tag">[confirm details with client]</span>
+        <div class="course-actions">
+          <button class="btn btn-ghost btn-sm" data-brochure="Housekeeping Operations"><svg class="ic" aria-hidden="true"><use href="#i-download"/></svg>Brochure</button>
+          <button class="btn btn-amber btn-sm" data-enquire="Housekeeping Operations">Enquire</button>
+        </div>
+      </article>
+
+      <article class="course-card reveal" data-cat="cruise">
+        <span class="cat-chip cruise">Cruise Line</span>
+        <h3>Galley &amp; Culinary Arts</h3>
+        <ul class="course-meta">
+          <li><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg><span>Duration: <b>~6–9 months</b></span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-grad"/></svg><span>Eligibility: <b>12th pass · interest in professional cooking</b></span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg><span>Commis to Chef-de-Partie pathways onboard</span></li>
+        </ul>
+        <span class="demo-tag">[confirm details with client]</span>
+        <div class="course-actions">
+          <button class="btn btn-ghost btn-sm" data-brochure="Galley &amp; Culinary Arts"><svg class="ic" aria-hidden="true"><use href="#i-download"/></svg>Brochure</button>
+          <button class="btn btn-amber btn-sm" data-enquire="Galley &amp; Culinary Arts">Enquire</button>
+        </div>
+      </article>
+
+      <!-- Help-me-choose tile (conversion) -->
+      <article class="course-card reveal" style="--d:.18s;justify-content:center;text-align:center;background:linear-gradient(160deg,var(--navy-800),var(--navy-950));border-color:transparent" >
+        <svg class="ic" aria-hidden="true" style="width:38px;height:38px;color:var(--teal);margin:0 auto 14px"><use href="#i-compass"/></svg>
+        <h3 style="color:#fff">Not sure which fits you?</h3>
+        <p style="color:var(--on-dark-muted);font-size:.88rem;margin:10px 0 20px">Take the 30-second eligibility check, or talk to a counsellor first — no fees discussed until your path is clear.</p>
+        <div class="course-actions" style="margin-top:0">
+          <a class="btn btn-outline-light btn-sm" href="#eligibility">Check eligibility</a>
+          <a class="btn btn-amber btn-sm" href="#lead">Free counselling</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+  6. WHY CHOOSE US — varied bento layout (all placeholders)
+============================================================ -->
+<section class="section" id="why" aria-labelledby="why-title">
+  <div class="container">
+    <div class="sec-head reveal">
+      <p class="kicker">Why families choose us</p>
+      <h2 id="why-title">Built for trust, not for hype.</h2>
+      <p class="lede">Anyone can promise the sea. We’d rather show you exactly how we work — and encourage you to verify every word.</p>
+    </div>
+    <div class="why-grid">
+      <!-- Tall lead card -->
+      <article class="why-card why-lead reveal">
+        <span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-heart"/></svg></span>
+        <h3>Counsellor-first, admission-second</h3>
+        <p>If a course doesn’t fit your age, marks or medical status, we say so on the first call — before any fee is even mentioned. A wrong admission helps no one.</p>
+        <div class="why-mini-stats">
+          <div class="m"><b><span data-count="15">0</span> min</b><span>First call</span></div>
+          <div class="m"><b><span data-count="0">0</span></b><span>Job promises sold</span></div>
+        </div>
+        <span class="demo-tag on-dark" style="margin-top:18px;align-self:flex-start"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg>[DEMO claims — confirm counselling process with client]</span>
+        <p class="quote">“If we wouldn’t enrol our own child on your plan, we won’t enrol you either.”<span>Demo positioning line — approve with client</span></p>
+      </article>
+      <!-- Standard card -->
+      <article class="why-card reveal" style="--d:.08s">
+        <span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-users"/></svg></span>
+        <h3>Small, mentored batches</h3>
+        <p>Every student is tracked personally — attendance, grooming, and interview readiness.</p>
+        <span class="demo-tag on-dark"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg>[DEMO: max 30 students per batch — confirm]</span>
+      </article>
+      <!-- Standard card -->
+      <article class="why-card reveal" style="--d:.16s">
+        <span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-sparkle"/></svg></span>
+        <h3>Interview &amp; grooming studio</h3>
+        <p>Communication practice, mock interviews and personality development built into the course — not sold separately.</p>
+        <span class="demo-tag on-dark"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg>[DEMO: weekly mock interviews — confirm]</span>
+      </article>
+      <!-- Wide card -->
+      <article class="why-card why-wide reveal" style="--d:.12s">
+        <span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-eye"/></svg></span>
+        <div style="flex:1;min-width:240px">
+          <h3 style="margin-top:0">Verification before enrolment</h3>
+          <p>We hand every family a written checklist to verify us — approvals, receipts, refund policy — before you pay a rupee. Use it on any institute, including us.</p>
+        </div>
+        <a class="btn btn-amber btn-sm" href="#verify">See the verification guide<svg class="ic move" aria-hidden="true"><use href="#i-arrow-r"/></svg></a>
+      </article>
+      <!-- Standard card: parents -->
+      <article class="why-card reveal" style="--d:.2s">
+        <span class="ic-badge"><svg class="ic" aria-hidden="true"><use href="#i-headset"/></svg></span>
+        <h3>A desk just for parents</h3>
+        <p>Fee receipts, batch schedules and honest progress updates — parents can call and ask anything, any time.</p>
+        <span class="demo-tag on-dark"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg>[DEMO: dedicated parent helpline — confirm]</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+  7. ADMISSION PROCESS — 4-step animated timeline
+============================================================ -->
+<section class="section tight" id="admissions" aria-labelledby="adm-title">
+  <div class="container">
+    <div class="sec-head center reveal">
+      <p class="kicker">How admission works</p>
+      <h2 id="adm-title">Four clear steps. No surprise fees mid-way.</h2>
+    </div>
+    <ol class="steps reveal" id="stepsList">
+      <span class="bar" aria-hidden="true"></span>
+      <li class="step">
+        <span class="step-dot"><svg class="ic" aria-hidden="true"><use href="#i-chat"/></svg><span class="sr-only">Step 1</span></span>
+        <div><h3>Enquire</h3><p>Call, WhatsApp or fill the form. We note your goal and your questions.</p></div>
+      </li>
+      <li class="step">
+        <span class="step-dot"><svg class="ic" aria-hidden="true"><use href="#i-headset"/></svg><span class="sr-only">Step 2</span></span>
+        <div><h3>Free counselling</h3><p>A counsellor maps your age, marks, stream and medicals to realistic pathways — in person or on a call.</p></div>
+      </li>
+      <li class="step">
+        <span class="step-dot"><svg class="ic" aria-hidden="true"><use href="#i-clipboard"/></svg><span class="sr-only">Step 3</span></span>
+        <div><h3>Documents &amp; eligibility check</h3><p>Mark sheets, ID and a medical-fitness plan are reviewed before any enrolment is offered.</p><span class="demo-tag">[DEMO: document list to be confirmed]</span></div>
+      </li>
+      <li class="step">
+        <span class="step-dot"><svg class="ic" aria-hidden="true"><use href="#i-grad"/></svg><span class="sr-only">Step 4</span></span>
+        <div><h3>Enrolment</h3><p>Written fee structure, receipt and refund policy — signed before you pay. Batch starts on schedule.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============================================================
+  8. ELIGIBILITY CHECKER (interactive, non-binding)
+============================================================ -->
+<section class="section" id="eligibility" aria-labelledby="elig-title">
+  <div class="container">
+    <div class="sec-head center reveal">
+      <p class="kicker">30-second check</p>
+      <h2 id="elig-title">Which pathways could fit you?</h2>
+      <p class="lede">Answer four quick questions for an indicative suggestion — friendly, honest and non-binding.</p>
+    </div>
+    <div class="elig-wrap">
+      <form class="elig-form reveal" id="eligForm" novalidate>
+        <fieldset>
+          <legend>Tell us about yourself</legend>
+          <div class="elig-row">
+            <div class="field">
+              <label for="eg-age">Your age</label>
+              <input class="control" id="eg-age" type="number" min="14" max="40" placeholder="e.g. 18" required>
+              <p class="err" id="eg-age-err"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><span>Enter an age between 14 and 40.</span></p>
+            </div>
+            <div class="field">
+              <label for="eg-qual">Qualification</label>
+              <select class="control" id="eg-qual" required>
+                <option value="" selected>Select</option>
+                <option value="pursuing">12th pursuing</option>
+                <option value="12th">12th pass</option>
+                <option value="grad">Graduate</option>
+                <option value="other">Other</option>
+              </select>
+              <p class="err" id="eg-qual-err"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><span>Please select your qualification.</span></p>
+            </div>
+          </div>
+          <div class="field">
+            <label for="eg-stream">Subject stream</label>
+            <select class="control" id="eg-stream" required>
+              <option value="" selected>Select</option>
+              <option value="pcm">Science with PCM (Physics, Chemistry, Maths)</option>
+              <option value="pcb">Science without Maths (e.g. PCB)</option>
+              <option value="comm">Commerce</option>
+              <option value="arts">Arts / Humanities</option>
+              <option value="other">Other / not applicable</option>
+            </select>
+            <p class="err" id="eg-stream-err"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><span>Please select your stream.</span></p>
+          </div>
+          <div class="field">
+            <span id="eg-med-lbl" style="display:block;font-size:.8rem;font-weight:700;color:var(--navy-800);margin-bottom:8px">Are you generally fit, with normal eyesight &amp; colour vision?</span>
+            <div class="seg" role="radiogroup" aria-labelledby="eg-med-lbl">
+              <label><input type="radio" name="eg-med" value="yes"><span class="seg-btn">Yes</span></label>
+              <label><input type="radio" name="eg-med" value="unsure"><span class="seg-btn">Not sure</span></label>
+              <label><input type="radio" name="eg-med" value="no"><span class="seg-btn">Known issue</span></label>
+            </div>
+            <p class="err" id="eg-med-err"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><span>Please pick one — “Not sure” is fine.</span></p>
+          </div>
+          <button class="btn btn-teal" type="submit" style="justify-self:start">Check my options<svg class="ic move" aria-hidden="true"><use href="#i-arrow-r"/></svg></button>
+        </fieldset>
+      </form>
+      <div class="elig-result reveal" style="--d:.12s" id="eligResult" aria-live="polite" aria-label="Eligibility result">
+        <div class="placeholder">
+          <svg class="ic" aria-hidden="true"><use href="#i-compass"/></svg>
+          <p>Your indicative pathways will appear here.<br>Takes about 30 seconds.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+  9. PLACEMENTS & RECRUITERS (neutral placeholders only)
+============================================================ -->
+<section class="section" id="placements" aria-labelledby="pl-title">
+  <div class="container">
+    <div class="sec-head center reveal">
+      <p class="kicker">Placements &amp; recruiters</p>
+      <h2 id="pl-title">Where our students interview.</h2>
+      <p class="lede">We never claim guaranteed jobs or placements — no honest institute can. Verified recruiter names will appear here only after documentation is checked.</p>
+    </div>
+    <div class="rec-strip reveal" role="list" aria-label="Recruiter logo placeholders">
+      <div class="rec-logo" role="listitem"><span class="glyph"><i></i><i class="round"></i></span><span>Recruiter logo</span></div>
+      <div class="rec-logo" role="listitem"><span class="glyph"><i class="round"></i><i></i></span><span>Recruiter logo</span></div>
+      <div class="rec-logo" role="listitem"><span class="glyph"><i></i><i></i></span><span>Recruiter logo</span></div>
+      <div class="rec-logo" role="listitem"><span class="glyph"><i class="round"></i></span><span>Recruiter logo</span></div>
+      <div class="rec-logo" role="listitem"><span class="glyph"><i></i><i class="round"></i></span><span>Recruiter logo</span></div>
+      <div class="rec-logo" role="listitem"><span class="glyph"><i class="round"></i><i></i></span><span>Recruiter logo</span></div>
+      <div class="rec-logo" role="listitem"><span class="glyph"><i></i><i></i></span><span>Recruiter logo</span></div>
+      <div class="rec-logo" role="listitem"><span class="glyph"><i class="round"></i></span><span>Recruiter logo</span></div>
+    </div>
+    <div class="rec-note reveal" style="display:flex;justify-content:center">
+      <span class="demo-tag blocky"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg>[Replace with verified recruiters only — publish names solely where a documented relationship exists. No brand logos are used in this demo.]</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+  10. FACULTY & CAMPUS (placeholder profiles + SVG gallery)
+============================================================ -->
+<section class="section" id="faculty" aria-labelledby="fac-title">
+  <div class="container">
+    <div class="sec-head reveal">
+      <p class="kicker">Faculty &amp; campus</p>
+      <h2 id="fac-title">Learn from people who’ve been to sea.</h2>
+      <p class="lede">Profiles below are placeholders — publish real names, photos and credentials only after written consent.</p>
+    </div>
+    <div class="fac-grid">
+      <article class="fac-card reveal">
+        <span class="fac-photo a" aria-hidden="true">CS</span>
+        <h3>[DEMO: Capt. C. Sharma]</h3>
+        <span class="role">Master Mariner (F.G.) — demo credential</span>
+        <p>[DEMO profile: sailing experience, teaching areas and certifications to be added and verified with the client.]</p>
+      </article>
+      <article class="fac-card reveal" style="--d:.08s">
+        <span class="fac-photo b" aria-hidden="true">RM</span>
+        <h3>[DEMO: Er. R. Mehta]</h3>
+        <span class="role">Chief Engineer — demo credential</span>
+        <p>[DEMO profile: engine-room experience, mentorship focus and certifications to be added and verified with the client.]</p>
+      </article>
+      <article class="fac-card reveal" style="--d:.16s">
+        <span class="fac-photo c" aria-hidden="true">AD</span>
+        <h3>[DEMO: Ms. A. D’Souza]</h3>
+        <span class="role">Cruise hospitality veteran — demo credential</span>
+        <p>[DEMO profile: cruise-line service background and training specialities to be added and verified with the client.]</p>
+      </article>
+    </div>
+
+    <!-- Campus gallery: gradient/SVG tiles (no stock images) -->
+    <div class="campus-grid reveal" role="list" aria-label="Campus gallery placeholders">
+      <div class="tile tile-1" role="listitem"><svg class="ic wm" aria-hidden="true"><use href="#i-compass"/></svg><span class="cap">Bridge simulator<small>[campus photo]</small></span></div>
+      <div class="tile tile-2" role="listitem"><svg class="ic wm" aria-hidden="true"><use href="#i-anchor"/></svg><span class="cap">Seamanship lab<small>[campus photo]</small></span></div>
+      <div class="tile tile-3" role="listitem"><svg class="ic wm" aria-hidden="true"><use href="#i-grad"/></svg><span class="cap">Classrooms<small>[campus photo]</small></span></div>
+      <div class="tile tile-video" role="listitem">
+        <div class="cap">
+          <span class="play"><svg class="ic" aria-hidden="true"><use href="#i-play"/></svg></span>
+          [Campus video tour]<small>Embed client video here</small>
+        </div>
+      </div>
+      <div class="tile tile-4" role="listitem"><svg class="ic wm" aria-hidden="true"><use href="#i-sparkle"/></svg><span class="cap">Grooming studio<small>[campus photo]</small></span></div>
+      <div class="tile tile-5" role="listitem"><svg class="ic wm" aria-hidden="true"><use href="#i-book"/></svg><span class="cap">Library<small>[campus photo]</small></span></div>
+      <div class="tile tile-6" role="listitem"><svg class="ic wm" aria-hidden="true"><use href="#i-bed"/></svg><span class="cap">Hostel<small>[campus photo]</small></span></div>
+      <div class="tile tile-1" role="listitem"><svg class="ic wm" aria-hidden="true"><use href="#i-utensils"/></svg><span class="cap">Training galley<small>[campus photo]</small></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+  11. TESTIMONIALS — video-style placeholder carousel (SAMPLES)
+============================================================ -->
+<section class="section" id="stories" aria-labelledby="stories-title">
+  <div class="container" style="position:relative">
+    <div class="sec-head reveal">
+      <p class="kicker" style="color:var(--teal-bright)">Student stories</p>
+      <h2 id="stories-title">Hear it from students, not from us.</h2>
+      <p class="lede">These cards are layout samples. Real, verifiable student videos will replace them after consent and fact-checking.</p>
+      <span class="demo-tag on-dark"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg>[Sample testimonials — replace with real, recorded student videos]</span>
+    </div>
+    <div class="t-shell reveal">
+      <div class="t-viewport">
+        <div class="t-track" id="tTrack">
+          <div class="t-slide"><article class="t-card">
+            <div class="t-thumb g1"><svg class="ic wm" aria-hidden="true"><use href="#i-anchor"/></svg><button class="t-play" aria-label="Play sample story (placeholder)"><svg class="ic" aria-hidden="true"><use href="#i-play"/></svg></button><span class="t-dur">00:42</span></div>
+            <div class="t-body"><p class="t-quote">Sample quote: the counsellor told me what I was NOT eligible for — that built my trust.</p><span class="demo-tag on-dark">[SAMPLE: Rahul S. · GP Rating · Batch 2024]</span></div>
+          </article></div>
+          <div class="t-slide"><article class="t-card">
+            <div class="t-thumb g2"><svg class="ic wm" aria-hidden="true"><use href="#i-ship"/></svg><button class="t-play" aria-label="Play sample story (placeholder)"><svg class="ic" aria-hidden="true"><use href="#i-play"/></svg></button><span class="t-dur">01:05</span></div>
+            <div class="t-body"><p class="t-quote">Sample quote: mock interviews every week made my real cruise interview feel familiar.</p><span class="demo-tag on-dark">[SAMPLE: Priya K. · Cruise Hospitality · Batch 2023]</span></div>
+          </article></div>
+          <div class="t-slide"><article class="t-card">
+            <div class="t-thumb g3"><svg class="ic wm" aria-hidden="true"><use href="#i-compass"/></svg><button class="t-play" aria-label="Play sample story (placeholder)"><svg class="ic" aria-hidden="true"><use href="#i-play"/></svg></button><span class="t-dur">00:58</span></div>
+            <div class="t-body"><p class="t-quote">Sample quote: my parents got receipts and a refund policy in writing before we paid anything.</p><span class="demo-tag on-dark">[SAMPLE: Aditya M. · DNS · Batch 2024]</span></div>
+          </article></div>
+          <div class="t-slide"><article class="t-card">
+            <div class="t-thumb g4"><svg class="ic wm" aria-hidden="true"><use href="#i-utensils"/></svg><button class="t-play" aria-label="Play sample story (placeholder)"><svg class="ic" aria-hidden="true"><use href="#i-play"/></svg></button><span class="t-dur">00:47</span></div>
+            <div class="t-body"><p class="t-quote">Sample quote: the galley training felt like a real ship kitchen, not a classroom.</p><span class="demo-tag on-dark">[SAMPLE: Neha T. · Galley &amp; Culinary]</span></div>
+          </article></div>
+          <div class="t-slide"><article class="t-card">
+            <div class="t-thumb g5"><svg class="ic wm" aria-hidden="true"><use href="#i-waves"/></svg><button class="t-play" aria-label="Play sample story (placeholder)"><svg class="ic" aria-hidden="true"><use href="#i-play"/></svg></button><span class="t-dur">01:12</span></div>
+            <div class="t-body"><p class="t-quote">Sample quote: they checked my eyesight first and told me to get medically certified before enrolling.</p><span class="demo-tag on-dark">[SAMPLE: Farhan A. · Marine Engineering]</span></div>
+          </article></div>
+        </div>
+      </div>
+      <div class="t-controls">
+        <button class="t-btn" id="tPrev" aria-label="Previous stories"><svg class="ic" aria-hidden="true"><use href="#i-chev-l"/></svg></button>
+        <button class="t-btn" id="tNext" aria-label="Next stories"><svg class="ic" aria-hidden="true"><use href="#i-chev-r"/></svg></button>
+        <div class="t-dots" id="tDots" role="tablist" aria-label="Story pages"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+  12. HOW TO VERIFY ANY MARITIME INSTITUTE (trust differentiator)
+============================================================ -->
+<section class="section" id="verify" aria-labelledby="verify-title">
+  <div class="container">
+    <div class="verify-card reveal">
+      <div class="verify-left">
+        <p class="kicker">Anti-scam guide</p>
+        <h2 id="verify-title">How to verify any maritime institute — including us.</h2>
+        <p>Fraudulent institutes thrive on urgency and secrecy. A genuine one will hand you documents and say, “Take your time.” Use this checklist before paying anyone, anywhere.</p>
+        <a class="btn btn-amber" href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-chat"/></svg>Ask us these questions on WhatsApp</a>
+      </div>
+      <div>
+        <ol class="check-list">
+          <li><span><b>Ask for the approval letter &amp; number.</b><br>Then cross-check it yourself on the regulator’s official website — not a link the institute sends you.</span></li>
+          <li><span><b>Visit the campus unannounced.</b><br>See the classrooms, labs and simulators. Talk to current students without staff present.</span></li>
+          <li><span><b>Speak to alumni directly.</b><br>Ask what they paid, what was promised and what actually happened.</span></li>
+          <li><span><b>Get everything in writing.</b><br>Fee breakup, receipts, batch dates, and a refund policy — before payment, not after.</span></li>
+          <li><span><b>Verify “placement records”.</b><br>Ask for joining letters or CDC copies (with personal data masked), not photos on a wall.</span></li>
+        </ol>
+        <p class="verify-flag"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><span><b>Walk away</b> if anyone “guarantees” a job, visa or salary, pressures you to pay today, or refuses to share approval documents in writing.</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+  13. FAQ (matches FAQPage JSON-LD in <head>)
+============================================================ -->
+<section class="section" id="faq" aria-labelledby="faq-title" style="background:var(--paper);border-block:1px solid var(--line)">
+  <div class="container">
+    <div class="sec-head center reveal">
+      <p class="kicker">Questions parents actually ask</p>
+      <h2 id="faq-title">Straight answers, no fine print.</h2>
+    </div>
+    <div class="faq-list reveal">
+      <div class="acc-item">
+        <h3 style="display:contents"><button class="acc-btn" aria-expanded="false"><span class="q-ic"><svg class="ic" aria-hidden="true"><use href="#i-grad"/></svg></span>Can I join the Merchant Navy after 12th?<svg class="ic chev" aria-hidden="true"><use href="#i-chev-d"/></svg></button></h3>
+        <div class="acc-panel"><div class="acc-panel-inner"><p>Yes. Students with Physics, Chemistry and Maths (PCM) in 12th can target deck or engine officer pathways such as DNS or Marine Engineering. Rating routes like GP Rating have broader academic criteria. Exact marks, age and medical requirements vary per programme and must be confirmed with the institute and the maritime regulator. <span class="demo-tag" style="margin:14px 0 0">[DEMO guidance — confirm current criteria with client]</span></p></div></div>
+      </div>
+      <div class="acc-item">
+        <h3 style="display:contents"><button class="acc-btn" aria-expanded="false"><span class="q-ic"><svg class="ic" aria-hidden="true"><use href="#i-book"/></svg></span>Is PCM compulsory for a career at sea?<svg class="ic chev" aria-hidden="true"><use href="#i-chev-d"/></svg></button></h3>
+        <div class="acc-panel"><div class="acc-panel-inner"><p>For officer-level nautical and marine engineering programmes, PCM is generally required. However, rating courses and most cruise line roles — hospitality, F&amp;B, housekeeping, culinary — are open to commerce and arts students too. Your stream narrows or widens options; it rarely ends them. <span class="demo-tag" style="margin:14px 0 0">[verify current criteria]</span></p></div></div>
+      </div>
+      <div class="acc-item">
+        <h3 style="display:contents"><button class="acc-btn" aria-expanded="false"><span class="q-ic"><svg class="ic" aria-hidden="true"><use href="#i-shield-check"/></svg></span>What medical standards apply?<svg class="ic chev" aria-hidden="true"><use href="#i-chev-d"/></svg></button></h3>
+        <div class="acc-panel"><div class="acc-panel-inner"><p>Seafarer roles require a medical fitness certificate from an approved doctor, covering eyesight, colour vision, hearing and general fitness. Cruise hospitality roles have their own employer medical checks. Get tested early — it is the kindest way to avoid spending money on a path that medicals may close. <span class="demo-tag" style="margin:14px 0 0">[Approval details to be verified with client]</span></p></div></div>
+      </div>
+      <div class="acc-item">
+        <h3 style="display:contents"><button class="acc-btn" aria-expanded="false"><span class="q-ic"><svg class="ic" aria-hidden="true"><use href="#i-ship"/></svg></span>Merchant Navy vs cruise line — what’s the real difference?<svg class="ic chev" aria-hidden="true"><use href="#i-chev-d"/></svg></button></h3>
+        <div class="acc-panel"><div class="acc-panel-inner"><p>Merchant Navy crews operate cargo, tanker and container ships — technical deck and engine careers regulated under national maritime rules and STCW conventions. Cruise lines are floating hotels — service, food, housekeeping and guest-facing roles with international brands. Both involve contracts at sea; the skills, entry routes and lifestyles differ completely.</p></div></div>
+      </div>
+      <div class="acc-item">
+        <h3 style="display:contents"><button class="acc-btn" aria-expanded="false"><span class="q-ic"><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg></span>What are the fees?<svg class="ic chev" aria-hidden="true"><use href="#i-chev-d"/></svg></button></h3>
+        <div class="acc-panel"><div class="acc-panel-inner"><p>Fees depend on the course and duration. We share a written fee structure — tuition, materials, medicals and any boarding — before you decide anything. <span class="demo-tag" style="margin:14px 0 0">[DEMO: exact fee range to be added by client]</span></p></div></div>
+      </div>
+      <div class="acc-item">
+        <h3 style="display:contents"><button class="acc-btn" aria-expanded="false"><span class="q-ic"><svg class="ic" aria-hidden="true"><use href="#i-eye"/></svg></span>How do I verify an institute’s approval?<svg class="ic chev" aria-hidden="true"><use href="#i-chev-d"/></svg></button></h3>
+        <div class="acc-panel"><div class="acc-panel-inner"><p>Ask for the approval letter and number, then independently check it on the official website of the maritime regulator. Visit the campus, speak to alumni, read the refund policy, and get every promise in writing. See our full <a href="#verify" style="color:var(--ocean);font-weight:700;text-decoration:underline;text-underline-offset:3px">verification checklist</a>.</p></div></div>
+      </div>
+      <div class="acc-item">
+        <h3 style="display:contents"><button class="acc-btn" aria-expanded="false"><span class="q-ic"><svg class="ic" aria-hidden="true"><use href="#i-briefcase"/></svg></span>What salary can I realistically expect?<svg class="ic chev" aria-hidden="true"><use href="#i-chev-d"/></svg></button></h3>
+        <div class="acc-panel"><div class="acc-panel-inner"><p>Earnings vary widely by rank, company, vessel type and contract length — and early careers often start with trainee stipends, not salaries. We share indicative ranges in counselling, but no institute can guarantee a job or a figure. <span class="demo-tag" style="margin:14px 0 0">[DEMO: indicative ranges to be added by client]</span></p></div></div>
+      </div>
+      <div class="acc-item">
+        <h3 style="display:contents"><button class="acc-btn" aria-expanded="false"><span class="q-ic"><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg></span>How long is the training?<svg class="ic chev" aria-hidden="true"><use href="#i-chev-d"/></svg></button></h3>
+        <div class="acc-panel"><div class="acc-panel-inner"><p>Short cruise hospitality modules run roughly 4–9 months. GP Rating pre-sea training is around 6 months. Officer pathways — DNS or Marine Engineering — run 1 to 4 years including sea time. <span class="demo-tag" style="margin:14px 0 0">[confirm durations with client]</span></p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+  14. FINAL CTA BAND — enquiry form repeated
+============================================================ -->
+<section class="cta-band" id="contact" aria-labelledby="cta-title">
+  <div class="hero-waves" aria-hidden="true">
+    <svg class="wave wave-1" viewBox="0 0 2880 130" preserveAspectRatio="none"><path d="M0 70C240 30 480 110 720 78 960 46 1200 96 1440 70c240-40 480 40 720 8 240-32 480 18 720-8v60H0Z"/></svg>
+    <svg class="wave wave-2" viewBox="0 0 2880 130" preserveAspectRatio="none"><path d="M0 84c260-34 460 26 720 6s460-44 720-16 460 30 720 10 460-40 720-14v60H0Z" opacity=".9"/></svg>
+  </div>
+  <div class="container cta-inner">
+    <div class="reveal">
+      <p class="kicker" style="color:var(--teal-bright)">Free counselling</p>
+      <h2 id="cta-title">Talk to a counsellor before you decide anything.</h2>
+      <p class="lede">One call. Your questions answered honestly — eligibility, medicals, fees, and whether this career genuinely fits you or your child.</p>
+      <ul class="cta-points">
+        <li><svg class="ic" aria-hidden="true"><use href="#i-check-c"/></svg>No fees discussed until your pathway is clear</li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-check-c"/></svg>Verification checklist shared on request</li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-check-c"/></svg>Parents welcome — bring every tough question</li>
+      </ul>
+      <div class="cta-contact-chips">
+        <a class="chip" href="tel:+91XXXXXXXXXX" aria-label="Call (demo number)"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>[DEMO: +91-98XXX-XXXX0]</a>
+        <a class="chip" href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener" aria-label="WhatsApp (demo number)"><svg class="ic" aria-hidden="true"><use href="#i-chat"/></svg>WhatsApp us</a>
+        <a class="chip" href="mailto:demo@example.com" aria-label="Email (demo)"><svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg>[DEMO: hello@nga.edu]</a>
+      </div>
+    </div>
+    <div class="lead-card reveal" style="--d:.12s">
+      <h2>Get a call back</h2>
+      <p class="lead-sub">Takes 20 seconds. We respond during working hours.</p>
+      <form class="lead-form" id="leadForm2" novalidate>
+        <div class="field">
+          <label for="cf-name">Full name <span class="req" aria-hidden="true">*</span></label>
+          <input class="control" id="cf-name" name="name" type="text" autocomplete="name" placeholder="e.g. Aarav Singh" required data-validate="name">
+          <p class="err" id="cf-name-err"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><span>Please enter your full name (min. 3 letters).</span></p>
+        </div>
+        <div class="field">
+          <label for="cf-phone">Mobile number <span class="req" aria-hidden="true">*</span></label>
+          <input class="control" id="cf-phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" placeholder="10-digit mobile" required data-validate="phone">
+          <p class="err" id="cf-phone-err"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><span>Enter a valid 10-digit Indian mobile number.</span></p>
+        </div>
+        <div class="field">
+          <label for="cf-qual">Highest qualification <span class="req" aria-hidden="true">*</span></label>
+          <select class="control" id="cf-qual" name="qualification" required data-validate="select">
+            <option value="" selected>Select qualification</option>
+            <option>12th pursuing</option>
+            <option>12th pass</option>
+            <option>Graduate</option>
+            <option>Other</option>
+          </select>
+          <p class="err" id="cf-qual-err"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><span>Please select your qualification.</span></p>
+        </div>
+        <div class="field">
+          <label for="cf-course">Interested course <span class="req" aria-hidden="true">*</span></label>
+          <select class="control" id="cf-course" name="course" required data-validate="select">
+            <option value="" selected>Select a course</option>
+            <option>GP Rating</option>
+            <option>DNS (Diploma in Nautical Science)</option>
+            <option>Marine Engineering</option>
+            <option>Cruise Hospitality &amp; Guest Services</option>
+            <option>F&amp;B Service for Cruise Ships</option>
+            <option>Housekeeping Operations</option>
+            <option>Galley &amp; Culinary Arts</option>
+            <option>Not sure yet — need guidance</option>
+          </select>
+          <p class="err" id="cf-course-err"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><span>Please choose a course or “Not sure yet”.</span></p>
+        </div>
+        <div class="field check-row">
+          <input id="cf-consent" type="checkbox" required data-validate="check">
+          <label for="cf-consent">I agree to be contacted by phone or WhatsApp about counselling. <span class="req" aria-hidden="true">*</span></label>
+        </div>
+        <p class="err" id="cf-consent-err"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><span>Please tick the consent box so we can call you.</span></p>
+        <div class="form-foot">
+          <button class="btn btn-amber" type="submit">Request free callback<svg class="ic move" aria-hidden="true"><use href="#i-arrow-r"/></svg></button>
+          <p class="promise"><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg>Call back within 15 minutes <span class="demo-tag" style="margin-left:2px">[DEMO promise]</span></p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============================================================
+  15. FOOTER
+============================================================ -->
+<footer class="footer" aria-label="Footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="#top" aria-label="Back to top">
+          <span class="brand-mark"><svg class="ic" aria-hidden="true"><use href="#i-anchor"/></svg></span>
+          <span class="brand-txt"><b style="color:#fff">National Global Academy</b><span>Noida · Maritime Careers</span></span>
+        </a>
+        <p>Merchant Navy &amp; Cruise Line career training in Noida, Delhi NCR. Counsellor-first, verification-friendly.</p>
+        <div class="socials">
+          <!-- DEMO: replace hrefs with verified social profiles -->
+          <a href="#" data-demo-link aria-label="Instagram (placeholder)"><svg class="ic" aria-hidden="true"><use href="#i-inst"/></svg></a>
+          <a href="#" data-demo-link aria-label="Facebook (placeholder)"><svg class="ic" aria-hidden="true"><use href="#i-fb"/></svg></a>
+          <a href="#" data-demo-link aria-label="YouTube (placeholder)"><svg class="ic" aria-hidden="true"><use href="#i-yt"/></svg></a>
+          <a href="#" data-demo-link aria-label="LinkedIn (placeholder)"><svg class="ic" aria-hidden="true"><use href="#i-li"/></svg></a>
+        </div>
+      </div>
+      <nav class="foot-col" aria-label="Quick links">
+        <h3>Quick links</h3>
+        <ul>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#admissions">Admissions</a></li>
+          <li><a href="#placements">Placements</a></li>
+          <li><a href="#faculty">Faculty &amp; campus</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#" data-demo-link>Blog</a></li>
+        </ul>
+      </nav>
+      <nav class="foot-col" aria-label="Course links">
+        <h3>Courses</h3>
+        <ul>
+          <li><a href="#courses" data-filter-link="mn">GP Rating</a></li>
+          <li><a href="#courses" data-filter-link="mn">DNS (Nautical Science)</a></li>
+          <li><a href="#courses" data-filter-link="mn">Marine Engineering</a></li>
+          <li><a href="#courses" data-filter-link="cruise">Cruise Hospitality</a></li>
+          <li><a href="#courses" data-filter-link="cruise">F&amp;B Service</a></li>
+          <li><a href="#courses" data-filter-link="cruise">Galley &amp; Culinary</a></li>
+        </ul>
+      </nav>
+      <div class="foot-col">
+        <h3>Contact</h3>
+        <ul class="foot-contact">
+          <li><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg><span>[DEMO address: Plot/Sector, Noida, Uttar Pradesh — PIN]</span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><a href="tel:+91XXXXXXXXXX">[DEMO: +91-98XXX-XXXX0]</a></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg><a href="mailto:demo@example.com">[DEMO: hello@nga.edu]</a></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg><span>[DEMO: Mon–Sat, 9:30 AM – 6:30 PM]</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-disclaimer reveal">
+      <svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg>
+      <span><b>Honesty note:</b> We do not guarantee jobs or placements. Course approval status, salaries, recruiter names and all figures on this demo are placeholders to be verified with the client before launch. Always verify any maritime institute independently.</span>
+    </div>
+    <div class="foot-legal">
+      <span>© <span id="year">2026</span> National Global Academy — <b>demo website</b> for client review.</span>
+      <nav aria-label="Legal">
+        <a href="#" data-demo-link>Privacy Policy</a><!-- DEMO: add real page -->
+        <a href="#" data-demo-link>Terms of Use</a>
+        <a href="#" data-demo-link>Refund Policy</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+  16. MOBILE STICKY BAR (Call / WhatsApp / Enquire)
+============================================================ -->
+<nav class="mobile-bar" aria-label="Quick actions">
+  <a href="tel:+91XXXXXXXXXX" aria-label="Call now (demo number)"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>Call</a>
+  <a class="mb-wa" href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener" aria-label="Chat on WhatsApp (demo number)"><svg class="ic" aria-hidden="true"><use href="#i-chat"/></svg>WhatsApp</a>
+  <a class="mb-enquire" href="#lead" aria-label="Open enquiry form"><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg>Enquire</a>
+</nav>
+
+<!-- Floating WhatsApp — desktop only (hidden on mobile via CSS) -->
+<a class="wa-float" href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener" aria-label="Chat with a counsellor on WhatsApp (demo number)"><svg class="ic" aria-hidden="true"><use href="#i-chat"/></svg></a>
+
+<!-- ============================================================
+  BROCHURE MODAL (lead capture for brochure delivery)
+============================================================ -->
+<div class="modal" id="brochureModal" role="dialog" aria-modal="true" aria-labelledby="bm-title" aria-hidden="true">
+  <div class="modal-backdrop" data-close-modal></div>
+  <div class="modal-box">
+    <button class="modal-close" data-close-modal aria-label="Close dialog"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button>
+    <h2 id="bm-title">Get the brochure on WhatsApp</h2>
+    <p class="lead-sub" id="bm-course-line">Course: <b id="bmCourse">—</b></p>
+    <form class="lead-form" id="brochureForm" novalidate>
+      <input type="hidden" name="brochureFor" id="bmHidden">
+      <div class="field">
+        <label for="bm-name">Full name <span class="req" aria-hidden="true">*</span></label>
+        <input class="control" id="bm-name" name="name" type="text" autocomplete="name" placeholder="Your name" required data-validate="name">
+        <p class="err" id="bm-name-err"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><span>Please enter your name (min. 3 letters).</span></p>
+      </div>
+      <div class="field">
+        <label for="bm-phone">Mobile / WhatsApp number <span class="req" aria-hidden="true">*</span></label>
+        <input class="control" id="bm-phone" name="phone" type="tel" inputmode="numeric" placeholder="10-digit mobile" required data-validate="phone">
+        <p class="err" id="bm-phone-err"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><span>Enter a valid 10-digit Indian mobile number.</span></p>
+      </div>
+      <button class="btn btn-amber" type="submit"><svg class="ic" aria-hidden="true"><use href="#i-download"/></svg>Send me the brochure</button>
+      <p class="alt-contact" style="justify-content:flex-start">Demo action — no real file is sent.</p>
+    </form>
+  </div>
+</div>
+
+<!-- Dev palette switcher — hidden until Shift+P -->
+<aside class="dev-panel" id="devPanel" aria-label="Developer palette switcher" hidden>
+  <h2><svg class="ic" aria-hidden="true"><use href="#i-sparkle"/></svg>DEV · Palette</h2>
+  <p class="hint">Toggle with <kbd>Shift</kbd>+<kbd>P</kbd> · demo only</p>
+  <button class="dp-opt" data-theme="naval" aria-pressed="true">
+    <span class="dp-sw"><i style="background:#0A1F44"></i><i style="background:#1B4F8A"></i><i style="background:#E8A838"></i></span>
+    <span class="dp-name">Naval Gold<small>default</small></span>
+  </button>
+  <button class="dp-opt" data-theme="royal" aria-pressed="false">
+    <span class="dp-sw"><i style="background:#12284C"></i><i style="background:#8FB8C9"></i><i style="background:#C9A961"></i></span>
+    <span class="dp-name">Royal Maritime<small>champagne CTA</small></span>
+  </button>
+  <button class="dp-opt" data-theme="ocean" aria-pressed="false">
+    <span class="dp-sw"><i style="background:#0B132B"></i><i style="background:#5BC0BE"></i><i style="background:#FF6B4A"></i></span>
+    <span class="dp-name">Deep Ocean<small>coral CTA</small></span>
+  </button>
+</aside>
+
+<!-- Toast (feedback for demo links & misc) -->
+<div class="toast" id="toast" role="status" aria-live="polite"><svg class="ic" aria-hidden="true"><use href="#i-check-c"/></svg><span id="toastMsg">Done</span></div>
+
+<!-- ============================================================
+  INLINE JS — all interactions (no frameworks, no backend)
+============================================================ -->
+<script>
+(function () {
+  'use strict';
+  var $  = function (s, c) { return (c || document).querySelector(s); };
+  var $$ = function (s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); };
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------- current year ---------- */
+  var yr = $('#year'); if (yr) yr.textContent = new Date().getFullYear();
+
+  /* ---------- DEV palette switcher (Shift+P) ---------- */
+  var devPanel = $('#devPanel');
+  var themeBtns = $$('.dp-opt');
+  function applyTheme(t) {
+    if (t === 'naval') document.documentElement.removeAttribute('data-theme');
+    else document.documentElement.setAttribute('data-theme', t);
+    themeBtns.forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-theme') === t)); });
+    try { localStorage.setItem('nga-theme', t); } catch (e) {}
+  }
+  themeBtns.forEach(function (b) {
+    b.addEventListener('click', function () { applyTheme(b.getAttribute('data-theme')); });
+  });
+  function togglePanel(force) {
+    var open = typeof force === 'boolean' ? force : !devPanel.classList.contains('open');
+    devPanel.classList.toggle('open', open);
+    if (open) devPanel.removeAttribute('hidden'); else devPanel.setAttribute('hidden', '');
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.shiftKey && (e.key === 'P' || e.key === 'p')) {
+      var t = e.target.tagName;
+      if (t === 'INPUT' || t === 'TEXTAREA' || t === 'SELECT') return; /* don't hijack typing */
+      e.preventDefault(); togglePanel();
+    }
+  });
+  try { var saved = localStorage.getItem('nga-theme'); if (saved) applyTheme(saved); } catch (e) {}
+
+  /* ---------- navbar: shadow on scroll ---------- */
+  var nav = $('#siteNav');
+  var onScroll = function () { nav.classList.toggle('scrolled', window.scrollY > 8); };
+  window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+
+  /* ---------- mobile menu ---------- */
+  var burger = $('#burger'), menu = $('#mobileMenu');
+  function setMenu(open) {
+    nav.classList.toggle('open', open);
+    nav.classList.toggle('menu-open', open);
+    burger.setAttribute('aria-expanded', String(open));
+    burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  }
+  burger.addEventListener('click', function () { setMenu(!nav.classList.contains('open')); });
+  $$('#mobileMenu a').forEach(function (a) { a.addEventListener('click', function () { setMenu(false); }); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setMenu(false); });
+
+  /* ---------- toast ---------- */
+  var toast = $('#toast'), toastMsg = $('#toastMsg'), toastT;
+  function showToast(msg) {
+    toastMsg.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastT);
+    toastT = setTimeout(function () { toast.classList.remove('show'); }, 3400);
+  }
+
+  /* ---------- demo placeholder links ---------- */
+  $$('[data-demo-link]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      e.preventDefault();
+      showToast('Demo link — connect this to the live page at launch.');
+    });
+  });
+
+  /* ---------- scroll reveal (IntersectionObserver) ---------- */
+  var revealEls = $$('.reveal');
+  if (reduced || !('IntersectionObserver' in window)) {
+    revealEls.forEach(function (el) { el.classList.add('in'); });
+  } else {
+    var ro = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add('in'); ro.unobserve(en.target); }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+    revealEls.forEach(function (el) { ro.observe(el); });
+  }
+
+  /* ---------- admissions timeline: light up on view ---------- */
+  var steps = $('#stepsList');
+  if (steps) {
+    if (reduced || !('IntersectionObserver' in window)) { steps.classList.add('lit'); }
+    else {
+      var so = new IntersectionObserver(function (en) {
+        if (en[0].isIntersecting) { steps.classList.add('lit'); so.disconnect(); }
+      }, { threshold: 0.35 });
+      so.observe(steps);
+    }
+  }
+
+  /* ---------- animated number counters ---------- */
+  function animateCount(el) {
+    var target = parseInt(el.getAttribute('data-count'), 10) || 0;
+    if (reduced) { el.textContent = target.toLocaleString('en-IN'); return; }
+    var dur = 1500, t0 = null;
+    function tick(t) {
+      if (!t0) t0 = t;
+      var p = Math.min((t - t0) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = Math.round(target * eased).toLocaleString('en-IN');
+      if (p < 1) requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+  var counters = $$('[data-count]');
+  if (!('IntersectionObserver' in window)) { counters.forEach(animateCount); }
+  else {
+    var co = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { animateCount(en.target); co.unobserve(en.target); }
+      });
+    }, { threshold: 0.6 });
+    counters.forEach(function (el) { co.observe(el); });
+  }
+
+  /* ---------- course filter tabs ---------- */
+  var tabs = $$('.tab'), cards = $$('#courseGrid .course-card[data-cat]');
+  function applyFilter(f) {
+    tabs.forEach(function (t) { t.setAttribute('aria-pressed', String(t.getAttribute('data-filter') === f)); });
+    cards.forEach(function (c) { c.classList.toggle('hide', f !== 'all' && c.getAttribute('data-cat') !== f); });
+  }
+  tabs.forEach(function (t) {
+    t.addEventListener('click', function () { applyFilter(t.getAttribute('data-filter')); });
+  });
+  /* path cards / footer links that pre-select a filter */
+  $$('[data-filter-link]').forEach(function (lnk) {
+    lnk.addEventListener('click', function () { applyFilter(lnk.getAttribute('data-filter-link')); });
+  });
+
+  /* ---------- FAQ accordion ---------- */
+  $$('.acc-item').forEach(function (item, idx) {
+    var btn = $('.acc-btn', item), panel = $('.acc-panel', item);
+    var pid = 'acc-panel-' + idx;
+    panel.id = pid;
+    btn.setAttribute('aria-controls', pid);
+    btn.addEventListener('click', function () {
+      var open = item.classList.toggle('open');
+      btn.setAttribute('aria-expanded', String(open));
+    });
+  });
+
+  /* ---------- testimonials carousel ---------- */
+  var track = $('#tTrack');
+  if (track) {
+    var slides = $$('.t-slide', track),
+        prev = $('#tPrev'), next = $('#tNext'), dotsBox = $('#tDots'),
+        index = 0;
+    function perView() { return window.innerWidth <= 720 ? 1 : window.innerWidth <= 1024 ? 2 : 3; }
+    function maxIndex() { return Math.max(0, slides.length - perView()); }
+    function renderDots() {
+      dotsBox.innerHTML = '';
+      for (var i = 0; i <= maxIndex(); i++) {
+        (function (i) {
+          var d = document.createElement('button');
+          d.className = 't-dot';
+          d.setAttribute('role', 'tab');
+          d.setAttribute('aria-label', 'Go to story page ' + (i + 1));
+          d.addEventListener('click', function () { go(i); });
+          dotsBox.appendChild(d);
+        })(i);
+      }
+    }
+    function go(i) {
+      index = Math.max(0, Math.min(i, maxIndex()));
+      var shift = index * (100 / perView());
+      track.style.transform = 'translateX(-' + shift + '%)';
+      prev.disabled = index === 0;
+      next.disabled = index === maxIndex();
+      $$('.t-dot', dotsBox).forEach(function (d, di) { d.setAttribute('aria-current', String(di === index)); });
+    }
+    prev.addEventListener('click', function () { go(index - 1); });
+    next.addEventListener('click', function () { go(index + 1); });
+    var rsz; window.addEventListener('resize', function () { clearTimeout(rsz); rsz = setTimeout(function () { renderDots(); go(index); }, 180); });
+    renderDots(); go(0);
+  }
+
+  /* ---------- eligibility checker ---------- */
+  var eligForm = $('#eligForm'), eligResult = $('#eligResult');
+  function fieldError(input, on) {
+    var err = document.getElementById(input.id + '-err');
+    if (err) err.classList.toggle('show', !!on);
+    if (input.setAttribute) input.setAttribute('aria-invalid', on ? 'true' : 'false');
+  }
+  if (eligForm) {
+    eligForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var age = parseInt($('#eg-age').value, 10),
+          qual = $('#eg-qual').value,
+          stream = $('#eg-stream').value,
+          med = (eligForm.querySelector('input[name="eg-med"]:checked') || {}).value || '',
+          ok = true;
+      var ageBad = !(age >= 14 && age <= 40);
+      fieldError($('#eg-age'), ageBad); ok = ok && !ageBad;
+      fieldError($('#eg-qual'), !qual); ok = ok && !!qual;
+      fieldError($('#eg-stream'), !stream); ok = ok && !!stream;
+      $('#eg-med-err').classList.toggle('show', !med); ok = ok && !!med;
+      if (!ok) return;
+
+      /* build indicative suggestions */
+      var items = [];
+      var iconShip = '#i-anchor', iconCruise = '#i-ship', iconCheck = '#i-check-c', iconAlert = '#i-alert';
+      function li(icon, html) { items.push('<li><svg class="ic" aria-hidden="true"><use href="' + icon + '"/></svg><span>' + html + '</span></li>'); }
+
+      if (age < 17) {
+        li(iconAlert, '<b>A little early — in a good way.</b> Focus on finishing school (PCM keeps officer routes open). Use this time to prepare and get medically screened.');
+      }
+      var pcm = stream === 'pcm';
+      var schoolish = (qual === 'pursuing' || qual === '12th');
+      if (age >= 17 && pcm && schoolish && med !== 'no') {
+        li(iconShip, '<b>Officer pathways look possible:</b> DNS (Diploma in Nautical Science) or Marine Engineering, subject to marks, age and medical standards. <em>[verify criteria]</em>');
+      }
+      if (age >= 17 && !pcm && schoolish) {
+        li(iconShip, '<b>GP Rating</b> may be an option depending on the programme’s academic and medical criteria — worth verifying before you commit.');
+      }
+      if (qual === 'grad') {
+        li(iconShip, '<b>Graduate routes:</b> engineering graduates can ask about GME; other graduates often fit shore-to-ship hospitality tracks. <em>[confirm with client]</em>');
+      }
+      if (age >= 17 && qual !== 'other') {
+        li(iconCruise, '<b>Cruise line roles are open to you:</b> hospitality &amp; guest services, F&amp;B, housekeeping or galley/culinary — all streams accepted, communication is key.');
+      }
+      if (qual === 'other') {
+        li(iconCheck, '<b>Worth a conversation:</b> with your background, a counsellor should map options 1-to-1 before suggesting a course.');
+      }
+      if (med === 'unsure') {
+        li(iconAlert, '<b>Get medically screened first.</b> Eyesight and colour-vision checks decide sea careers — do this before paying any fee. Ask us for an approved-doctor list <em>[DEMO]</em>.');
+      }
+      if (med === 'no') {
+        li(iconAlert, '<b>Honest note:</b> a known medical condition may limit seafarer roles. Get assessed by an approved doctor first — some shore-side cruise/hospitality roles may still fit.');
+      }
+      if (age > 26) {
+        li(iconAlert, '<b>Check age limits carefully:</b> several pre-sea programmes have upper age caps. We’ll verify the latest criteria with you <em>[confirm with client]</em>.');
+      }
+
+      eligResult.innerHTML =
+        '<h3>Indicative pathways for you</h3>' +
+        '<p class="who">Age ' + age + ' · ' + $('#eg-qual').selectedOptions[0].text + ' · ' + $('#eg-stream').selectedOptions[0].text.split('(')[0].trim() + '</p>' +
+        '<ul class="path-sugg">' + items.join('') + '</ul>' +
+        '<p class="elig-note"><b>Disclaimer:</b> this is an indicative suggestion only, not an admission decision. Final eligibility always depends on the institute, the university and the maritime regulator after document and medical checks.</p>' +
+        '<a class="btn btn-amber btn-sm" href="#lead">Discuss this with a counsellor<svg class="ic move" aria-hidden="true"><use href="#i-arrow-r"/></svg></a>';
+      if (!reduced) eligResult.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+    /* clear field errors as the user fixes them */
+    ['eg-age', 'eg-qual', 'eg-stream'].forEach(function (id) {
+      var el = document.getElementById(id);
+      el.addEventListener('input', function () { fieldError(el, false); });
+      el.addEventListener('change', function () { fieldError(el, false); });
+    });
+    $$('input[name="eg-med"]', eligForm).forEach(function (r) {
+      r.addEventListener('change', function () { $('#eg-med-err').classList.remove('show'); });
+    });
+  }
+
+  /* ---------- lead forms: validation + mock submit ---------- */
+  function normalizePhone(v) {
+    var d = String(v).replace(/\D/g, '');
+    if (d.length === 12 && d.indexOf('91') === 0) d = d.slice(2);
+    if (d.length === 11 && d.indexOf('0') === 0) d = d.slice(1);
+    return d;
+  }
+  function validateField(input) {
+    var type = input.getAttribute('data-validate'), v = input.value.trim(), ok = true;
+    if (type === 'name') ok = /^[A-Za-z][A-Za-z .'-]{2,}$/.test(v);
+    if (type === 'phone') ok = /^[6-9]\d{9}$/.test(normalizePhone(v));
+    if (type === 'select') ok = !!v;
+    if (type === 'check') ok = input.checked;
+    var err = document.getElementById(input.id + '-err');
+    if (err) err.classList.toggle('show', !ok);
+    input.setAttribute('aria-invalid', ok ? 'false' : 'true');
+    return ok;
+  }
+  function esc(s) { return String(s).replace(/[&<>"']/g, function (m) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m]; }); }
+  function successHTML(name) {
+    return '<div class="form-success" tabindex="-1">' +
+      '<span class="success-ic"><svg class="ic" style="width:30px;height:30px" aria-hidden="true"><use href="#i-check-c"/></svg></span>' +
+      '<h3>Thanks, ' + esc(name.split(' ')[0]) + ' — request received!</h3>' +
+      '<p>Our counsellor will call you within 15 minutes during working hours. Keep your questions ready — we’ll answer them honestly.</p>' +
+      '<p style="margin-top:14px"><span class="demo-tag">[DEMO promise — confirm SLA with client. Demo: no data was sent anywhere.]</span></p>' +
+      '</div>';
+  }
+  function wireLeadForm(formId) {
+    var form = document.getElementById(formId);
+    if (!form) return false;
+    $$('[data-validate]', form).forEach(function (input) {
+      input.addEventListener('blur', function () { validateField(input); });
+      input.addEventListener('input', function () {
+        var err = document.getElementById(input.id + '-err');
+        if (err) err.classList.remove('show');
+        input.setAttribute('aria-invalid', 'false');
+      });
+    });
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var fields = $$('[data-validate]', form), ok = true, firstBad = null;
+      fields.forEach(function (input) {
+        if (!validateField(input)) { ok = false; if (!firstBad) firstBad = input; }
+      });
+      if (!ok) { firstBad.focus(); return; }
+      var btn = $('button[type="submit"]', form), name = ($('[name="name"]', form) || {}).value || 'there';
+      btn.disabled = true; btn.textContent = 'Sending…';
+      /* mock submit — replace with real backend/WhatsApp API at launch */
+      setTimeout(function () {
+        form.innerHTML = successHTML(name.trim());
+        var done = $('.form-success', form);
+        if (done) done.focus();
+        showToast('Request received — counsellor will call you. (Demo)');
+      }, 900);
+    });
+    return true;
+  }
+  wireLeadForm('leadForm');
+  wireLeadForm('leadForm2');
+
+  /* ---------- course "Enquire" — prefill course & jump to form ---------- */
+  function prefillCourse(course) {
+    ['lf-course', 'cf-course'].forEach(function (id) {
+      var sel = document.getElementById(id);
+      if (!sel) return;
+      var found = false;
+      Array.prototype.forEach.call(sel.options, function (o) {
+        if (o.text === course) { sel.value = o.value || o.text; o.selected = true; found = true; }
+      });
+      if (!found) sel.selectedIndex = sel.options.length - 1; /* "Not sure yet" */
+      sel.dispatchEvent(new Event('change'));
+    });
+  }
+  $$('[data-enquire]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      prefillCourse(btn.getAttribute('data-enquire'));
+      var target = document.getElementById('lead');
+      target.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'center' });
+      setTimeout(function () {
+        var n = $('#lf-name'); if (n) n.focus({ preventScroll: true });
+      }, reduced ? 0 : 650);
+      showToast('Course selected — tell us where to call you.');
+    });
+  });
+
+  /* ---------- brochure modal ---------- */
+  var modal = $('#brochureModal'), bmCourse = $('#bmCourse'), bmHidden = $('#bmHidden'), lastFocus = null;
+  function openModal(course) {
+    lastFocus = document.activeElement;
+    bmCourse.textContent = course;
+    bmHidden.value = course;
+    modal.classList.add('open');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    var c = $('.modal-close', modal); if (c) c.focus();
+  }
+  function closeModal() {
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  $$('[data-brochure]').forEach(function (btn) {
+    btn.addEventListener('click', function () { openModal(btn.getAttribute('data-brochure')); });
+  });
+  $$('[data-close-modal]').forEach(function (el) { el.addEventListener('click', closeModal); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && modal.classList.contains('open')) closeModal();
+    /* light focus trap */
+    if (e.key === 'Tab' && modal.classList.contains('open')) {
+      var f = $$('button, input, select, a[href]', modal).filter(function (el) { return el.offsetParent !== null; });
+      if (!f.length) return;
+      var first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { last.focus(); e.preventDefault(); }
+      else if (!e.shiftKey && document.activeElement === last) { first.focus(); e.preventDefault(); }
+    }
+  });
+  var brochureForm = $('#brochureForm');
+  if (brochureForm) {
+    $$('[data-validate]', brochureForm).forEach(function (input) {
+      input.addEventListener('input', function () {
+        var err = document.getElementById(input.id + '-err');
+        if (err) err.classList.remove('show');
+      });
+    });
+    brochureForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var ok = $$('[data-validate]', brochureForm).map(validateField).every(Boolean);
+      if (!ok) return;
+      var name = ($('#bm-name').value || 'there').trim();
+      brochureForm.innerHTML =
+        '<div class="form-success" tabindex="-1">' +
+        '<span class="success-ic"><svg class="ic" style="width:30px;height:30px" aria-hidden="true"><use href="#i-check-c"/></svg></span>' +
+        '<h3>Thanks, ' + esc(name.split(' ')[0]) + '!</h3>' +
+        '<p>The <b>' + bmCourse.textContent + '</b> brochure will be sent to your WhatsApp shortly. <span class="demo-tag" style="margin-top:10px">[DEMO delivery — connect real brochure files at launch]</span></p>' +
+        '</div>';
+      var done = $('.form-success', brochureForm); if (done) done.focus();
+    });
+  }
+})();
+</script>
+</body>
+</html>
